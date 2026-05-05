@@ -13,22 +13,22 @@
   <table>
     <tr>
       <td align="center">
-        <img src="public/img/about/Nguyen_The_Anh.jpg" alt="Nguyễn Thế Anh" width="150" style="border-radius: 50%;">
+        <img src="public/img/Nguyen_The_Anh.jpg" alt="Nguyễn Thế Anh" width="150" style="border-radius: 50%;">
         <h3>Nguyễn Thế Anh</h3>
         <p>Team Leader</p>
       </td>
       <td align="center">
-        <img src="public/img/about/Phan_Anh_Duc.jpg" alt="Phan Anh Đức" width="150" style="border-radius: 50%;">
+        <img src="public/img/Phan_Anh_Duc.jpg" alt="Phan Anh Đức" width="150" style="border-radius: 50%;">
         <h3>Phan Anh Đức</h3>
         <p>Frontend Developer</p>
       </td>
       <td align="center">
-        <img src="public/img/about/Dung.jpg" alt="Phạm Quốc Dũng" width="150" style="border-radius: 50%;">
+        <img src="public/img/Pham_Quoc_Dung.jpg" alt="Phạm Quốc Dũng" width="150" style="border-radius: 50%;">
         <h3>Phạm Quốc Dũng</h3>
         <p>Database Admin</p>
       </td>
       <td align="center">
-        <img src="public/img/about/Nguyen_Duc_Long.jpg" alt="Nguyễn Đức Long" width="150" style="border-radius: 50%;">
+        <img src="public/img/Nguyen_Duc_Long.jpg" alt="Nguyễn Đức Long" width="150" style="border-radius: 50%;">
         <h3>Nguyễn Đức Long</h3>
         <p>Backend Developer</p>
       </td>
