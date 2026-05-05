@@ -1,0 +1,139 @@
+[2026-01-14 23:44:05] Đăng nhập thất bại với email: nguyenbonvuong1@gmail.com
+[2026-01-14 23:46:15] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:46:27] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:46:28] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:46:43] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:49:37] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:52:37] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:57:05] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:57:05] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409825802
+    [customerName] => Bốn
+    [contactFirstName] => Nguyễn
+    [contactLastName] => Bốn
+    [email] => theanhhh12@gmail.com
+    [password] => 1234
+    [phone] => 0383571059
+    [addressLine1] => xóm 10
+    [city] => 30
+    [country] => Vietnam
+)
+
+[2026-01-14 23:57:05] Đã nhập Tên: Nguyễn
+[2026-01-14 23:57:05] Đã nhập Họ: Bốn
+[2026-01-14 23:57:05] Đã nhập Email: theanhhh12@gmail.com
+[2026-01-14 23:57:05] Đã nhập Mật khẩu: 1234
+[2026-01-14 23:57:05] Đã nhập Số điện thoại: 0383571059
+[2026-01-14 23:57:05] Đã nhập Địa chỉ: xóm 10
+[2026-01-14 23:57:05] Đã nhập Thành phố: 30
+[2026-01-14 23:57:05] LỖI: Mật khẩu phải có ít nhất 6 ký tự
+[2026-01-14 23:57:18] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:57:18] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409838353
+    [customerName] => Bốn
+    [contactFirstName] => 
+    [contactLastName] => Bốn
+    [email] => theanhhh12@gmail.com
+    [password] => 1234
+    [phone] => 0383571059
+    [addressLine1] => xóm 10
+    [city] => 30
+    [country] => Vietnam
+)
+
+[2026-01-14 23:57:18] LỖI: Thiếu thông tin bắt buộc - Tên (contactFirstName)
+[2026-01-14 23:57:24] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:57:24] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409844313
+    [customerName] => Bốn
+    [contactFirstName] => Nguyễn
+    [contactLastName] => Bốn
+    [email] => theanhhh12@gmail.com
+    [password] => 1234
+    [phone] => 0383571059
+    [addressLine1] => xóm 10
+    [city] => H
+    [country] => Vietnam
+)
+
+[2026-01-14 23:57:24] Đã nhập Tên: Nguyễn
+[2026-01-14 23:57:24] Đã nhập Họ: Bốn
+[2026-01-14 23:57:24] Đã nhập Email: theanhhh12@gmail.com
+[2026-01-14 23:57:24] Đã nhập Mật khẩu: 1234
+[2026-01-14 23:57:24] Đã nhập Số điện thoại: 0383571059
+[2026-01-14 23:57:24] Đã nhập Địa chỉ: xóm 10
+[2026-01-14 23:57:24] Đã nhập Thành phố: H
+[2026-01-14 23:57:24] LỖI: Mật khẩu phải có ít nhất 6 ký tự
+[2026-01-14 23:57:30] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:57:30] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409850206
+    [customerName] => Nguyen
+    [contactFirstName] => Ha
+    [contactLastName] => Nguyen
+    [email] => theanhhh12@gmail.com
+    [password] => 1234
+    [phone] => 0924861899
+    [addressLine1] => AN Phuong
+    [city] => Hai Phong
+    [country] => Vietnam
+)
+
+[2026-01-14 23:57:30] Đã nhập Tên: Ha
+[2026-01-14 23:57:30] Đã nhập Họ: Nguyen
+[2026-01-14 23:57:30] Đã nhập Email: theanhhh12@gmail.com
+[2026-01-14 23:57:30] Đã nhập Mật khẩu: 1234
+[2026-01-14 23:57:30] Đã nhập Số điện thoại: 0924861899
+[2026-01-14 23:57:30] Đã nhập Địa chỉ: AN Phuong
+[2026-01-14 23:57:30] Đã nhập Thành phố: Hai Phong
+[2026-01-14 23:57:30] LỖI: Mật khẩu phải có ít nhất 6 ký tự
+[2026-01-14 23:57:35] Đăng nhập thất bại với email: theanhhh12@gmail.com
+[2026-01-14 23:57:55] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:57:55] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409875323
+    [customerName] => Phan
+    [contactFirstName] => Ha
+    [contactLastName] => Phan
+    [email] => theanhhh12@gmail.com
+    [password] => 1234
+    [phone] => 0924861858
+    [addressLine1] => HaiDUong
+    [city] => HaiPhong
+    [country] => Vietnam
+)
+
+[2026-01-14 23:57:55] Đã nhập Tên: Ha
+[2026-01-14 23:57:55] Đã nhập Họ: Phan
+[2026-01-14 23:57:55] Đã nhập Email: theanhhh12@gmail.com
+[2026-01-14 23:57:55] Đã nhập Mật khẩu: 1234
+[2026-01-14 23:57:55] Đã nhập Số điện thoại: 0924861858
+[2026-01-14 23:57:55] Đã nhập Địa chỉ: HaiDUong
+[2026-01-14 23:57:55] Đã nhập Thành phố: HaiPhong
+[2026-01-14 23:57:55] LỖI: Mật khẩu phải có ít nhất 6 ký tự
+[2026-01-14 23:58:17] === Bắt đầu kiểm tra dữ liệu đăng ký ===
+[2026-01-14 23:58:17] Dữ liệu nhận được: Array
+(
+    [customerNumber] => CUS1768409897340
+    [customerName] => m
+    [contactFirstName] => n
+    [contactLastName] => m
+    [email] => nguyenbonvuong@gmail.com
+    [password] => 123456
+    [phone] => 0
+    [addressLine1] => AN Phuong
+    [city] => Hai Phong
+    [country] => Vietnam
+)
+
+[2026-01-14 23:58:17] Đã nhập Tên: n
+[2026-01-14 23:58:17] Đã nhập Họ: m
+[2026-01-14 23:58:17] Đã nhập Email: nguyenbonvuong@gmail.com
+[2026-01-14 23:58:17] Đã nhập Mật khẩu: 123456
+[2026-01-14 23:58:17] Đã nhập Số điện thoại: 0
+[2026-01-14 23:58:17] Đã nhập Địa chỉ: AN Phuong
+[2026-01-14 23:58:17] Đã nhập Thành phố: Hai Phong
+[2026-01-14 23:58:17] LỖI: Email đã được sử dụng: nguyenbonvuong@gmail.com
