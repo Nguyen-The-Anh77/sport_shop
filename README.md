@@ -1,5 +1,11 @@
 # BTL-DBMS-2020
-Shop bán đồ thể thao
+ Đề tài: Shop bán đồ thể thao
+Nhóm 3:
+- Nguyễn Thế Anh
+- Nguyễn Đức Long
+- Phan Anh Đức
+_Phạm Quốc Dũng
+
 
 Cách chạy ứng dụng trên localhost:
 
