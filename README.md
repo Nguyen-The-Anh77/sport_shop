@@ -2,9 +2,12 @@
  Đề tài: Shop bán đồ thể thao
 Nhóm 3:
 - Nguyễn Thế Anh
-- Nguyễn Đức Long
 - Phan Anh Đức
-_Phạm Quốc Dũng
+- Phạm Quốc Dũng
+- Nguyễn Đức Long
+
+
+ 
 
 
 Cách chạy ứng dụng trên localhost:
@@ -20,3 +23,4 @@ Bước 4: Khởi động XAMPP và mở trình duyệt với đường dẫn lo
 Ứng dụng còn nhiều lỗi, chưa đầy đủ các tính năng, mọi người có thể pull request cho mình để cùng nhau học tập nhé! 
 
 Thank you !!!
+ 
