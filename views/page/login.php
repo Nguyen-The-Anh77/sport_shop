@@ -83,7 +83,7 @@
 									<input type="text" name="city" placeholder="Thành phố" />
 									<input type="text" name="country" placeholder="Quốc gia" />
 									<div>
-										<button type="button" class="submit-text btn btn-primary" onclick="checkAndSubmit()">ÐANG KÝ</button>
+										<button type="button" class="submit-text btn btn-primary" onclick="checkAndSubmit()">ÐĂNG KÝ</button>
 									</div>
 								</form>
 							</div>

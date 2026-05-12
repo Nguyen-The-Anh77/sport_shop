@@ -58,4 +58,12 @@
         </a>
       </li>
 
+      <!-- Nav Item - News -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="?mod=news&act=list">
+          <i class="fas fa-fw fa-newspaper"></i>
+          <span>Tin Tức</span>
+        </a>
+      </li>
+
     </ul>

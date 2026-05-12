@@ -94,6 +94,24 @@ ini_set('display_errors', 1);
 					break;
 			}
 			break;	
+		case 'news':
+			require_once('controllers/NewsController.php');
+			$controller_obj = new NewsController();
+			switch ($act) {
+				case 'list':
+					$controller_obj->list();
+					break;
+				case 'detail':
+					$controller_obj->detail();
+					break;
+				case 'latest':
+					$controller_obj->latest();
+					break;
+				default:
+					require_once('views/page/error-404.php');
+					break;
+			}
+			break;	
 		default:
 			require_once('views/page/error-404.php');
 			break;

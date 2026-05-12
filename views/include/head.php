@@ -10,8 +10,9 @@
         <link rel="apple-touch-icon" href="public/apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 		<!-- google fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300&subset=vietnamese' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif&subset=vietnamese' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=vietnamese' rel='stylesheet' type='text/css'>
 		<!-- all css here -->
 		<!-- bootstrap v3.3.6 css -->
         <link rel="stylesheet" href="public/css/bootstrap.min.css">

@@ -57,6 +57,7 @@
 										<li><a href="?mod=product&line=2&type=Basketball">Basketball</a></li>
 										<li><a href="?mod=product&line=3&type=Badminton">Badminton</a></li>
 										<!-- <li><a href="?mod=product&line=4&type=Volleyball">Volleyball</a></li> -->
+										<li><a href="?mod=news&act=list">Tin Tức</a></li>
 									</ul>
 								</nav>
 							</div>

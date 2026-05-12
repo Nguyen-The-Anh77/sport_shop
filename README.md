@@ -1,8 +1,8 @@
-# BTL-DBMS-2020: Shop Bán Đồ Thể Thao
+# BTL-DBMS-2025: Shop Bán Đồ Thể Thao
 
 <div align="center">
   <h2>Đề tài: Xây dựng trang web bán đồ thể thao</h2>
-  <p><strong>Học phần: Cơ sở dữ liệu - Năm học 2020</strong></p>
+  <p><strong>Học phần: Cơ sở dữ liệu - Năm học 2025</strong></p>
 </div>
 
 ---
