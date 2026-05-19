@@ -16,7 +16,7 @@
 <td align="center">
 <img src="./public/img/Nguyen_The_Anh.jpg"
 width="150"
-height="150"
+height="200"
 style="object-fit: cover;"
 alt="Nguyễn Thế Anh"/>
 <br />
@@ -28,7 +28,7 @@ alt="Nguyễn Thế Anh"/>
 <td align="center">
 <img src="./public/img/Phan_Anh_Duc.jpg"
 width="150"
-height="150"
+height="200"
 style="object-fit: cover;"
 alt="Phan Anh Đức"/>
 <br />
@@ -40,7 +40,7 @@ alt="Phan Anh Đức"/>
 <td align="center">
 <img src="./public/img/Pham_Quoc_Dung.jpg"
 width="150"
-height="150"
+height="200"
 style="object-fit: cover;"
 alt="Phạm Quốc Dũng"/>
 <br />
@@ -52,7 +52,7 @@ alt="Phạm Quốc Dũng"/>
 <td align="center">
 <img src="./public/img/Nguyen_Duc_Long.jpg"
 width="150"
-height="150"
+height="200"
 style="object-fit: cover;"
 alt="Nguyễn Đức Long"/>
 <br />
