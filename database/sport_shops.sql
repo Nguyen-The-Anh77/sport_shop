@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2026 at 06:15 PM
+-- Generation Time: May 13, 2026 at 05:09 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -47,7 +47,6 @@ CREATE TABLE `customers` (
 INSERT INTO `customers` (`customerNumber`, `customerName`, `contactLastName`, `contactFirstName`, `phone`, `addressLine1`, `city`, `country`, `password`, `email`) VALUES
 (1, '', '', '', '', '', '', '', 'e10adc3949ba59abbe56e057f20f883e', 'admin'),
 (103, 'Atelier graphique', 'Schmitt', 'Carine ', '40.32.2555', '54, rue Royale', 'Nantes', 'France', '81dc9bdb52d04dc20036dbd8313ed055', 'kisibongdemyd2@gmail.com'),
-(112, 'Signal Gift Stores', 'King', 'Jean', '7025551838', '8489 Strong St.', 'Las Vegas', 'USA', '81dc9bdb52d04dc20036dbd8313ed055', 'King@gmail.com'),
 (114, 'Australian Collectors, Co.', 'Ferguson', 'Peter', '03 9520 4555', '636 St Kilda Road', 'Melbourne', 'Australia', '81dc9bdb52d04dc20036dbd8313ed055', 'Ferguson@gmail.com'),
 (119, 'La Rochelle Gifts', 'Labrune', 'Janine ', '40.67.8555', '67, rue des Cinquante Otages', 'Nantes', 'France', '81dc9bdb52d04dc20036dbd8313ed055', 'Labrune@gmail.com'),
 (121, 'Baane Mini Imports', 'Bergulfsen', 'Jonas ', '07-98 9555', 'Erling Skakkes gate 78', 'Stavern', 'Norway', '81dc9bdb52d04dc20036dbd8313ed055', 'Bergulfsen@gmail.com'),
@@ -168,7 +167,22 @@ INSERT INTO `customers` (`customerNumber`, `customerName`, `contactLastName`, `c
 (489, 'Double Decker Gift Stores, Ltd', 'Smith', 'Thomas ', '(171) 555-7555', '120 Hanover Sq.', 'London', 'UK', '81dc9bdb52d04dc20036dbd8313ed055', 'Smith@gmail.com'),
 (496, 'Kelly\'s Gift Shop', 'Snowden', 'Tony', '+64 9 5555500', 'Arenales 1938 3\'A\'', 'Auckland  ', 'New Zealand', '81dc9bdb52d04dc20036dbd8313ed055', 'Snowden@gmail.com'),
 (497, 'Nguyen The Anh', 'Nguyen', 'The Anhhh', '0924861859', 'AN Phuong', 'Hai Phong', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'theanhhh12@gmail.com'),
-(498, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059', 'PhuTho', 'PhuTho', 'VietNam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong@gmail.com');
+(498, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059', 'PhuTho', 'PhuTho', 'VietNam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong@gmail.com'),
+(499, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong1@gmail.com'),
+(500, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059aaa', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong3@gmail.com'),
+(501, 'Dung Nguyem', 'Dung', 'Nguyem', '0383571089', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenducdung@gmail.com'),
+(502, 'Phan Vien', 'Phan', 'Vien', '0234842573', 'Ngoc Ha', 'Vinh Phuc', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', '8374832xyzz@gmail.com'),
+(503, 'Long Nguyễn', 'Long', 'Nguyễn', '0383571059', 'PhuTho', 'PhuTho', 'Vietnam', NULL, 'nguyentheanh@gmail.com'),
+(504, 'Long Nguyễn', 'Long', 'Nguyễn', '0383571059', 'PhuTho', 'PhuTho', 'Vietnam', NULL, 'nguyentheanh@gmail.com'),
+(505, 'Nguyem Dung', 'Nguyem', 'Dung', '0383571089', 'PhuTho', 'PhuTho', 'Vietnam', NULL, 'nguyenducdung@gmail.com'),
+(506, 'Long Nguyễn', 'Long', 'Nguyễn', '0383571059', 'PhuTho', 'PhuTho', 'Vietnam', NULL, 'nguyenduclong@gmail.com'),
+(507, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059a', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong17@gmail.com'),
+(508, 'Nguyễn Thế', 'Nguyễn', 'Thế', '0383571089a', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong1v@gmail.com'),
+(509, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyenduclong99@gmail.com'),
+(510, 'Tran Huan', 'Tran', 'Huan', '09912228234', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'tranvanhuan@gmail.com'),
+(511, 'Nguyễn Nghĩa', 'Nguyễn', 'Nghĩa', '0314671890', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyennghiag@gmail.com'),
+(512, 'Nguyễn Long', 'Nguyễn', 'Long', '0383571059', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyennghiag1@gmail.com'),
+(513, 'Nguyen Nghia', 'Nguyen', 'Nghia', '0383571056', 'PhuTho', 'PhuTho', 'Vietnam', '81dc9bdb52d04dc20036dbd8313ed055', 'nguyennghia@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -194,11 +208,13 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`employeeNumber`, `lastName`, `firstName`, `email`, `jobTitle`, `password`, `level`, `age`, `startDate`, `salary`) VALUES
+(0, 'Long Nguyễn', '', 'nguyenduclong@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 19, '2026-04-16', 27000),
+(1001, 'Dung', '', 'nguyenduclong@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2026-04-03', 27000),
 (1002, 'TheAnh', 'Nguyen', 'nguyentheanh@gmail.com', 'President', '81dc9bdb52d04dc20036dbd8313ed055', 1, 32, '2015-04-24', 50000000),
+(1003, 'Tran', 'Hung', 'tranhung@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 18, '2026-04-03', 27000),
 (1056, 'Patterson', 'Mary', 'mpatterso@classicmodelcars.com', 'VP Sales', '81dc9bdb52d04dc20036dbd8313ed055', 0, 30, '2016-04-25', 40000000),
 (1076, 'Firrelli', 'Jeff', 'jfirrelli@classicmodelcars.com', 'VP Marketing', '81dc9bdb52d04dc20036dbd8313ed055', 0, 29, '2015-05-04', 40000000),
 (1088, 'Patterson', 'William', 'wpatterson@classicmodelcars.com', 'Sales Manager (APAC)', '81dc9bdb52d04dc20036dbd8313ed055', 0, 26, '2016-04-29', 35000000),
-(1102, 'Bondur', 'Gerard', 'gbondur@classicmodelcars.com', 'Sale Manager (EMEA)', 'e10adc3949ba59abbe56e057f20f883e', 0, 24, '2016-05-05', 35000000),
 (1143, 'Bow', 'Anthony', 'abow@classicmodelcars.com', 'Sales Manager (NA)', '81dc9bdb52d04dc20036dbd8313ed055', 0, 23, '2017-05-10', 35000000),
 (1165, 'Jennings', 'Leslie', 'ljennings@classicmodelcars.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 26, '2017-05-08', 25000000),
 (1166, 'Thompson', 'Leslie', 'lthompson@classicmodelcars.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 27, '2017-05-13', 25000000),
@@ -215,7 +231,12 @@ INSERT INTO `employees` (`employeeNumber`, `lastName`, `firstName`, `email`, `jo
 (1621, 'Nishi', 'Mami', 'mnishi@classicmodelcars.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 26, '2019-04-14', 8000000),
 (1625, 'Kato', 'Yoshimi', 'ykato@classicmodelcars.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 21, '2019-04-14', 6000000),
 (1702, 'Gerard', 'Martin', 'mgerard@classicmodelcars.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 24, '2020-04-18', 6000000),
-(1703, 'AnhDuc', 'Phan', 'phananhduc@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2024-04-07', 10000000);
+(1703, 'AnhDuc', 'Phan', 'phananhduc@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2024-04-09', 10000000),
+(10001, 'Thế Anh Nguyễn', '', 'nguyenduclong1@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2026-04-17', 27000),
+(111221, 'Long Nguyễn', '', 'nguyenduclong@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2026-04-11', 27000),
+(1111111, 'Hải', '', 'nguyenduclong@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2026-04-17', 27000),
+(1111112, 'Hải', '', 'nguyenduclong@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 25, '2026-04-16', 27000),
+(2147483647, 'lan', '', 'lalasmsm@gmail.com', 'Sales Rep', '81dc9bdb52d04dc20036dbd8313ed055', 0, 100, '1999-01-03', 27000);
 
 -- --------------------------------------------------------
 
@@ -254,6 +275,41 @@ CREATE TABLE `hot_view` (
 ,`sales_percent` int(1)
 ,`price_after_discount` decimal(10,2)
 );
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `news`
+--
+
+CREATE TABLE `news` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `slug` varchar(255) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `content` longtext DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `category_id` int(11) DEFAULT 1,
+  `author` varchar(100) DEFAULT NULL,
+  `status` tinyint(1) DEFAULT 1 COMMENT '1: Published, 0: Draft',
+  `featured` tinyint(1) DEFAULT 0 COMMENT '1: Featured, 0: Normal',
+  `views` int(11) DEFAULT 0,
+  `tags` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+
+--
+-- Dumping data for table `news`
+--
+
+INSERT INTO `news` (`id`, `title`, `slug`, `description`, `content`, `image`, `category_id`, `author`, `status`, `featured`, `views`, `tags`, `created_at`, `updated_at`) VALUES
+(1, 'Hướng dẫn chọn giày bóng đá phù hợp', 'huong-dan-chon-giay-bong-da-phu-hop', 'Bài viết hướng dẫn cách chọn giày bóng đá phù hợp với loại sân và vị trí thi đấu', '<p>Chọn giày bóng đá phù hợp là yếu tố quan trọng ảnh hưởng đến hiệu suất và an toàn khi thi đấu. Dưới đây là những lưu ý quan trọng:</p>\n<h3>1. Xác định loại sân</h3>\n<p>- <strong>Sân cỏ tự nhiên (FG):</strong> Dùng đinh dài, bám tốt trên cỏ thật</p>\n<p>- <strong>Sân cỏ nhân tạo (AG):</strong> Dùng đinh ngắn, nhiều đinh hơn để giảm áp lực</p>\n<p>- <strong>Sân cứng (HG):</strong> Dùng đinh tròn hoặc dẹt, phù hợp sân đất nện</p>\n<p>- <strong>Sân trong nhà (IC):</strong> Đế phẳng, không có đinh</p>\n<h3>2. Chọn theo vị trí thi đấu</h3>\n<p>- <strong>Thủ môn:</strong> Ưu tiên giày có đệm tốt, bảo vệ chân</p>\n<p>- <strong>Hậu vệ:</strong> Cần giày bám chắc, trọng lượng vừa phải</p>\n<p>- <strong>Tiền vệ:</strong> Giày nhẹ, linh hoạt, kiểm soát bóng tốt</p>\n<p>- <strong>Tiền đạo:</strong> Giày siêu nhẹ, hỗ trợ tốc độ và sút mạnh</p>\n<h3>3. Chất liệu và kích cỡ</h3>\n<p>- <strong>Da thật:</strong> Co giãn tốt, ôm chân</p>\n<p>- <strong>Vải tổng hợp:</strong> Nhẹ hơn, ít thấm nước</p>\n<p>- <strong>Kích cỡ:</strong> Chọn vừa vặn, không quá chật cũng không quá rộng</p>\n<p>Hãy đến cửa hàng của chúng tôi để được tư vấn chi tiết và thử trực tiếp các sản phẩm!</p>', 'news1.jpg', 1, 'Admin', 1, 1, 128, 'giày bóng đá,chọn giày,bóng đá,thể thao', '2026-05-12 02:18:23', '2026-05-13 01:29:19'),
+(2, '5 bài tập tăng cường sức mạnh cho cầu thủ bóng rổ', '5-bai-tap-tang-cuong-suc-manh-cho-cau-thu-bong-ro', 'Tổng hợp các bài tập hiệu quả giúp cải thiện sức mạnh và thể lực cho người chơi bóng rổ', '<p>Để trở thành một cầu thủ bóng rổ xuất sắc, việc rèn luyện sức mạnh là không thể thiếu. Dưới đây là 5 bài tập hiệu quả:</p>\n<h3>1. Squat với tạ</h3>\n<p>- Tăng cường sức mạnh cho chân</p>\n<p>- Cải thiện khả năng nhảy cao</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 8-12 lần</p>\n<h3>2. Deadlift</h3>\n<p>- Phát triển toàn thân</p>\n<p>- Tăng sức mạnh cho lưng và chân</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 6-8 lần</p>\n<h3>3. Bench Press</h3>\n<p>- Tăng sức mạnh cho phần thân trên</p>\n<p>- Cải thiện khả năng tranh bóng</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 8-10 lần</p>\n<h3>4. Box Jump</h3>\n<p>- Cải thiện sức bật</p>\n<p>- Tăng khả năng phản xạ</p>\n<p>- Thực hiện 3 hiệp, mỗi hiệp 8-10 lần</p>\n<h3>5. Medicine Ball Throws</h3>\n<p>- Tăng sức mạnh cho phần thân</p>\n<p>- Cải thiện khả năng chuyền bóng</p>\n<p>- Thực hiện 3 hiệp, mỗi hiệp 10-15 lần</p>\n<p>Nhớ khởi động kỹ trước khi tập và nghỉ ngơi hợp lý giữa các hiệp!</p>', 'news2.jpg', 2, 'Admin', 1, 1, 89, 'bóng rổ,tập luyện,sức mạnh,thể thao', '2026-05-12 02:18:23', '2026-05-12 02:18:23'),
+(4, 'Cầu lông - Môn thể thao phù hợp cho mọi lứa tuổi', 'cu-lng-mn-th-thao-ph-hp-cho-mi-la-tui', 'Lợi ích của cầu lông và lý do tại sao đây là môn thể thao lý tưởng cho cả gia đình', '<p>Cầu lông là một trong những môn thể thao được yêu thích nhất tại Việt Nam. Dưới đây là những lý do tại sao bạn nên chọn cầu lông:</p>\r\n<h3>Lợi ích sức khỏe</h3>\r\n<ul>\r\n<li><strong>Tăng cường sức khỏe tim mạch:</strong> Chạy nhảy liên tục cải thiện tuần hoàn máu</li>\r\n<li><strong>Phát triển cơ bắp:</strong> Tăng cường sức mạnh cho chân, tay và phần thân</li>\r\n<li><strong>Cải thiện sự linh hoạt:</strong> Các động tác nhanh, dẻo dai</li>\r\n<li><strong>Giảm cân hiệu quả:</strong> Đốt cháy nhiều calo trong thời gian ngắn</li>\r\n</ul>\r\n<h3>Lợi ích tinh thần</h3>\r\n<ul>\r\n<li><strong>Giảm căng thẳng:</strong> Giải tỏa áp lực công việc, học tập</li>\r\n<li><strong>Tăng sự tập trung:</strong> Cần sự chú ý cao độ trong từng pha bóng</li>\r\n<li><strong>Cải thiện phản xạ:</strong> Tăng tốc độ phản ứng với các tình huống</li>\r\n</ul>\r\n<h3>?‍?‍?‍? Phù hợp cho mọi lứa tuổi</h3>\r\n<ul>\r\n<li><strong>Trẻ em:</strong> Phát triển thể chất, tăng chiều cao</li>\r\n<li><strong>Thanh thiếu niên:</strong> Tăng cường sức khỏe, rèn luyện tính kỷ luật</li>\r\n<li><strong>Người lớn:</strong> Duy trì vóc dáng, giảm stress</li>\r\n<li><strong>Người cao tuổi:</strong> Tăng cường sức khỏe, phòng chống bệnh tật</li>\r\n</ul>\r\n<h3>Trang thiết bị cần thiết</h3>\r\n<ul>\r\n<li>Vợt cầu lông chất lượng</li>\r\n<li>Qu cầu lông tiêu chuẩn</li>\r\n<li>Giày chuyên dụng cho sân trong/sân ngoài</li>\r\n<li>Quần áo thể thao thoáng mát</li>\r\n</ul>\r\n<p>Hãy đến Sport Shop để được tư vấn và chọn mua trang thiết bị cầu lông chất lượng cao!</p>', 'news_1778553065.png', 1, 'Admin', 1, 0, 91, 'cầu lông,thể thao,sức khỏe,gia đình', '2026-05-12 02:18:24', '2026-05-13 02:42:55'),
+(5, 'Review chi tiết giày Nike Air Zoom Pegasus 39', 'review-chi-tiet-giay-nike-air-zoom-pegasus-39', 'Đánh giá chi tiết mẫu giày chạy bộ nổi tiếng từ Nike', '<p>Nike Air Zoom Pegasus 39 là một trong những mẫu giày chạy bộ được mong đợi nhất năm 2026. Hãy cùng tìm hiểu chi tiết:</p>\n<h3> Điểm nổi bật</h3>\n<ul>\n<li><strong>Đệm Zoom Air:</strong> Cung cấp độ đàn hồi và êm ái vượt trội</li>\n<li><strong>Cushlon foam:</strong> Đệm mềm mại, thoải mái trong mỗi bước chạy</li>\n<li><strong>Thiết kế thoáng khí:</strong> Lưới thoáng khí giúp chân luôn khô ráo</li>\n<li><strong>Đế cao su bền bỉ:</strong> Tăng độ bám và tuổi thọ sản phẩm</li>\n</ul>\n<h3> Thông số kỹ thuật</h3>\n<ul>\n<li><strong>Trọng lượng:</strong> 285g (size nam), 255g (size nữ)</li>\n<li><strong>Drop:</strong> 10mm</li>\n<li><strong>Độ dày đệm:</strong> 33mm (gót), 23mm (mũi)</li>\n<li><strong>Phù hợp:</strong> Chạy bộ hàng ngày, tập luyện đa dạng</li>\n</ul>\n<h3> Ưu điểm</h3>\n<ul>\n<li>Êm ái và thoải mái ngay từ lần đầu mang</li>\n<li>Độ bền cao, sử dụng được lâu dài</li>\n<li>Thiết kế đẹp mắt, nhiều màu sắc lựa chọn</li>\n<li>Phù hợp với nhiều loại chân và phong cách chạy</li>\n</ul>\n<h3> Lưu ý</h3>\n<ul>\n<li>Giá thành khá cao so với các dòng khác</li>\n<li>Có thể hơi nặng so với các mẫu giày racing</li>\n<li>Không phù hợp cho các cuộc thi chuyên nghiệp</li>\n</ul>\n<h3> Đối tượng phù hợp</h3>\n<p>Giày Pegasus 39 lý tưởng cho:</p>\n<ul>\n<li>Người mới bắt đầu chạy bộ</li>\n<li>Vận động viên chạy bộ hàng ngày (5-21km)</li>\n<li>Người cần giày đa năng cho nhiều loại hình tập luyện</li>\n</ul>\n<p>Với mức giá khoảng 3.500.000 VNĐ, đây là sự đầu tư xứng đáng cho những ai đam mê chạy bộ!</p>', 'news5.jpg', 3, 'Admin', 1, 0, 157, 'review,Nike,giày chạy bộ,Pegasus', '2026-05-12 02:18:24', '2026-05-12 02:45:47'),
+(6, 'Barcelona của Hansi Flick vô địch La Liga: Quá hay & đẹp, nhưng vẫn chưa hoàn hảo', 'barcelona-ca-hansi-flick-v-ch-la-liga-qu-hay-p-nhng-vn-cha-hon-ho', 'Barcelona đã chính thức lên ngôi vô địch La Liga sau chiến thắng 2-0 trong trận El Clasico cuối tuần qua. Vấn đề là ngoài danh hiệu vô địch La Lioga, Barcelona mùa này… chẳng có gì nữa. Phải đánh giá thế nào về đội bóng trong tay HLV Hansi Flick?', '<p>Nói đến Barcelona là phải nói kèm theo đó kình địch trong suốt lịch sử của họ, cũng như trận đấu không bao giờ tách khỏi những “hỉ, nộ, ái ố”, trong cuộc sống thường nhật cũng như trong bức tranh tổng thể về thành tích của Barcelona. Vâng, đó là Real Madrid và trận El Clasico nổi tiếng thế giới. Với HLV Hansi Flick, đã có thể khẳng định: ông có cái duyên hết sức đặc biệt với cặp đấu “siêu kinh điển” này.</p>', 'news_1778553908.jpg', 1, 'Nguyen TheAnh', 1, 0, 11, '', '2026-05-12 02:45:08', '2026-05-13 01:29:15'),
+(9, 'mm', 'mm', 'mm', '<p>Cầu lông là một trong những môn thể thao được yêu thích nhất tại Việt Nam. Dưới đây là những lý do tại sao bạn nên chọn cầu lông:</p>\r\n<h3> Lợi ích sức khỏe</h3>\r\n<ul>\r\n<li><strong>Tăng cường sức khỏe tim mạch:</strong> Chạy nhảy liên tục cải thiện tuần hoàn máu</li>\r\n<li><strong>Phát triển cơ bắp:</strong> Tăng cường sức mạnh cho chân, tay và phần thân</li>\r\n<li><strong>Cải thiện sự linh hoạt:</strong> Các động tác nhanh, dẻo dai</li>\r\n<li><strong>Giảm cân hiệu quả:</strong> Đốt cháy nhiều calo trong thời gian ngắn</li>\r\n</ul>\r\n<h3>Lợi ích tinh thần</h3>\r\n<ul>\r\n<li><strong>Giảm căng thẳng:</strong> Giải tỏa áp lực công việc, học tập</li>\r\n<li><strong>Tăng sự tập trung:</strong> Cần sự chú ý cao độ trong từng pha bóng</li>\r\n<li><strong>Cải thiện phản xạ:</strong> Tăng tốc độ phản ứng với các tình huống</li>\r\n</ul>\r\n<h3>Phù hợp cho mọi lứa tuổi</h3>\r\n<ul>\r\n<li><strong>Trẻ em:</strong> Phát triển thể chất, tăng chiều cao</li>\r\n<li><strong>Thanh thiếu niên:</strong> Tăng cường sức khỏe, rèn luyện tính kỷ luật</li>\r\n<li><strong>Người lớn:</strong> Duy trì vóc dáng, giảm stress</li>\r\n<li><strong>Người cao tuổi:</strong> Tăng cường sức khỏe, phòng chống bệnh tật</li>\r\n</ul>\r\n<h3> Trang thiết bị cần thiết</h3>\r\n<ul>\r\n<li>Vợt cầu lông chất lượng</li>\r\n<li>Qu cầu lông tiêu chuẩn</li>\r\n<li>Giày chuyên dụng cho sân trong/sân ngoài</li>\r\n<li>Quần áo thể thao thoáng mát</li>\r\n</ul>\r\n<p>Hãy đến Sport Shop để được tư vấn và chọn mua trang thiết bị cầu lông chất lượng cao!</p>', 'news_1778636136.jpg', 2, 'Nguyen TheAnh', 1, 0, 68, '', '2026-05-13 01:35:36', '2026-05-13 02:50:09');
 
 -- --------------------------------------------------------
 
@@ -1260,7 +1316,40 @@ INSERT INTO `orderdetails` (`orderNumber`, `productCode`, `quantityOrdered`, `em
 (10433, 'br_0364', 1, NULL),
 (10434, 'br_0390', 1, NULL),
 (10435, 'br_0464', 1, NULL),
-(10437, 'br_0664', 1, NULL);
+(10437, 'br_0664', 1, NULL),
+(10438, 'bd_0003', 1, NULL),
+(10439, 'bd_0006', 1, NULL),
+(10439, 'bd_0009', 1, NULL),
+(10440, 'bd_0009', 1, NULL),
+(10441, 'br_0590', 1, NULL),
+(10443, 'br_0864', 2, NULL),
+(10444, 'bd_0016', 1, NULL),
+(10445, 'br_0864', 1, NULL),
+(10450, 'cl_0935', 1, NULL),
+(10451, 'cl_0464', 1, NULL),
+(10452, 'cl_0590', 1, NULL),
+(10452, 'cl_0664', 1, NULL),
+(10453, 'cl_0464', 1, NULL),
+(10454, 'cl_0464', 1, NULL),
+(10454, 'cl_0935', 1, NULL),
+(10455, 'cl_0464', 1, NULL),
+(10455, 'cl_0590', 1, NULL),
+(10456, 'cl_0464', 1, NULL),
+(10457, 'cl_0934', 1, NULL),
+(10458, 'cl_0490', 1, NULL),
+(10459, 'cl_0590', 1, NULL),
+(10460, 'cl_0664', 1, NULL),
+(10461, 'br_0003', 1, NULL),
+(10461, 'cl_0490', 1, NULL),
+(10462, 'cl_0464', 1, NULL),
+(10463, 'cl_0464', 1, NULL),
+(10464, 'br_0002', 1, NULL),
+(10465, 'cl_0490', 1, NULL),
+(10466, 'cl_0464', 1, NULL),
+(10467, 'cl_0490', 1, NULL),
+(10468, 'cl_0490', 1, NULL),
+(10469, 'cl_0564', 1, NULL),
+(10470, 'cl_0664', 1, NULL);
 
 --
 -- Triggers `orderdetails`
@@ -1637,7 +1726,39 @@ INSERT INTO `orders` (`orderNumber`, `orderDate`, `requiredDate`, `shippedDate`,
 (10433, '2026-04-11 00:00:00', '2026-04-18', NULL, 'In Process', NULL, 0),
 (10434, '2026-04-11 00:00:00', '2026-04-18', NULL, 'In Process', NULL, 0),
 (10435, '2026-04-11 22:22:46', '2026-04-18', NULL, 'In Process', NULL, 0),
-(10437, '2026-04-11 22:59:50', '2026-04-18', NULL, 'In Process', NULL, 498);
+(10437, '2026-04-11 22:59:50', '2026-04-18', NULL, 'In Process', NULL, 498),
+(10438, '2026-04-14 08:07:47', '2026-04-21', NULL, 'In Process', NULL, 498),
+(10439, '2026-04-15 13:37:33', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10440, '2026-04-15 13:46:42', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10441, '2026-04-15 14:06:01', '2026-04-22', NULL, 'In Process', NULL, 0),
+(10443, '2026-04-15 14:53:23', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10444, '2026-04-15 14:54:08', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10445, '2026-04-15 14:57:04', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10446, '2026-04-15 22:25:39', '2026-04-22', NULL, 'Pending', 'cod - ', 503),
+(10447, '2026-04-15 22:26:00', '2026-04-22', NULL, 'Pending', 'cod - ', 504),
+(10448, '2026-04-15 17:31:29', '2026-04-22', NULL, 'Pending', 'cod - ', 505),
+(10449, '2026-04-15 17:32:46', '2026-04-22', NULL, 'Pending', 'cod - ', 506),
+(10450, '2026-04-15 23:06:04', '2026-04-22', NULL, 'In Process', NULL, 0),
+(10451, '2026-04-15 23:13:29', '2026-04-22', NULL, 'In Process', NULL, 0),
+(10452, '2026-04-15 23:18:20', '2026-04-22', NULL, 'In Process', NULL, 0),
+(10453, '2026-04-15 23:20:48', '2026-04-22', NULL, 'In Process', NULL, 498),
+(10454, '2026-04-15 23:37:24', '2026-04-22', NULL, 'In Process', NULL, 499),
+(10455, '2026-04-16 15:34:30', '2026-04-23', NULL, 'In Process', NULL, 499),
+(10456, '2026-04-16 15:39:56', '2026-04-23', NULL, 'In Process', NULL, 499),
+(10457, '2026-04-16 22:27:09', '2026-04-23', NULL, 'In Process', NULL, 0),
+(10458, '2026-04-17 03:19:17', '2026-04-24', NULL, 'In Process', NULL, 510),
+(10459, '2026-04-17 03:20:15', '2026-04-24', NULL, 'In Process', NULL, 510),
+(10460, '2026-04-17 03:20:45', '2026-04-24', NULL, 'In Process', NULL, 510),
+(10461, '2026-04-17 03:50:14', '2026-04-24', NULL, 'In Process', NULL, 498),
+(10462, '2026-04-17 05:26:14', '2026-04-24', NULL, 'In Process', NULL, 0),
+(10463, '2026-04-17 05:54:17', '2026-04-24', NULL, 'In Process', NULL, 0),
+(10464, '2026-04-17 07:38:56', '2026-04-24', NULL, 'In Process', NULL, 498),
+(10465, '2026-04-17 07:41:32', '2026-04-24', NULL, 'In Process', NULL, 499),
+(10466, '2026-04-17 07:51:52', '2026-04-24', NULL, 'In Process', NULL, 0),
+(10467, '2026-04-17 07:58:35', '2026-04-24', NULL, 'In Process', NULL, 0),
+(10468, '2026-04-21 05:38:45', '2026-04-28', NULL, 'In Process', NULL, 499),
+(10469, '2026-04-21 07:46:05', '2026-04-28', NULL, 'In Process', NULL, 499),
+(10470, '2026-05-12 09:05:33', '2026-05-19', NULL, 'In Process', NULL, 499);
 
 -- --------------------------------------------------------
 
@@ -1996,13 +2117,12 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('111', 'Áo đá bóng', '1', '', 11, 1111.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 0),
-('bd_0003', 'Giày đội tuyển Việt Nam', '1', 'Mẫu giày bóng đá mới của đội tuyển', 178, 150000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 1),
-('bd_0006', 'Giày đội tuyển Nhật Bản', '1', 'Mẫu giày bóng đá mới của đội tuyển', 99, 150000.00, 'https://product.hstatic.net/1000061481/product/0a8fb4900cd94fe89d793bdcdc238ad1_6618563ffff74fa58cf64b07b12d350e_large.jpg', 1),
-('bd_0009', 'Giày đội tuyển Brazil', '1', 'Mẫu giày bóng đá mới của đội tuyển', 100, 150000.00, 'https://product.hstatic.net/1000061481/product/f53fb8a4bed14198a34f122d46cf0997_396dc30e2e8644ce8edec08ab7403a7c_large.jpg', 1),
+('bd_0003', 'Giày đội tuyển Việt Nam', '1', 'Mẫu giày bóng đá mới của đội tuyển', 177, 150000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 1),
+('bd_0006', 'Giày đội tuyển Nhật Bản', '1', 'Mẫu giày bóng đá mới của đội tuyển', 98, 150000.00, 'https://product.hstatic.net/1000061481/product/0a8fb4900cd94fe89d793bdcdc238ad1_6618563ffff74fa58cf64b07b12d350e_large.jpg', 2),
+('bd_0009', 'Giày đội tuyển Brazil', '1', 'Mẫu giày bóng đá mới của đội tuyển', 98, 150000.00, 'https://product.hstatic.net/1000061481/product/f53fb8a4bed14198a34f122d46cf0997_396dc30e2e8644ce8edec08ab7403a7c_large.jpg', 1),
 ('bd_0012', 'Giày đội tuyển Argentina', '1', 'Mẫu giày bóng đá mới của đội tuyển', 100, 150000.00, 'https://product.hstatic.net/1000061481/product/c1e534e019504f5284f7826c5027a487_cc139a03ba134fc4887e2b98b0eaa000_large.jpg', 1),
 ('bd_0015', 'Giày đội tuyển Mỹ', '1', 'Mẫu giày bóng đá mới của đội tuyển', 100, 250000.00, 'https://product.hstatic.net/1000061481/product/cd01b0b5c8cb41a885f5e2e9889d10d2_abb0222b594348efa862f60aeba919ee_large.jpg', 1),
-('bd_0016', 'Áo đội tuyển Mexico sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 100, 150000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-mexico-san-khach-2-400x400.jpg', 1),
+('bd_0016', 'Áo đội tuyển Mexico sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 99, 150000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-mexico-san-khach-2-400x400.jpg', 1),
 ('bd_0017', 'Áo đội tuyển Mexico sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 100, 150000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-mexico-san-khach-2-400x400.jpg', 0),
 ('bd_0018', 'Giày đội tuyển Mexico', '1', 'Mẫu giày bóng đá mới của đội tuyển', 100, 150000.00, 'https://product.hstatic.net/1000061481/product/8b3dac97c56346479dea48594da3fc6c_67f53812b563498a9bd318d7665bf4d4_large.jpg', 4),
 ('bd_0021', 'Giày đội tuyển Tây Ban Nha', '1', 'Mẫu giày bóng đá mới của đội tuyển', 100, 150000.00, 'https://product.hstatic.net/1000061481/product/9737614d45f4413ea1d3abe04a133e5e_0272add3ed064f00a9a970b3b936d78e_large.jpg', 12),
@@ -2187,9 +2307,9 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0201', 'Giày đội tuyển Iraq ', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/72d311f927f340e38e14787dd86c6605_c2c77cdbde54489f8e18f0719a7c4008_large.jpg', 1),
 ('bd_0202', 'Áo đội tuyển Jordan sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-mu-san-nha-hang-viet-nam-1-400x400.jpg', 3),
 ('bd_0203', 'Áo đội tuyển Jordan sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-mu-san-nha-hang-viet-nam-1-400x400.jpg', 2),
-('bd_0204', 'Giày đội tuyển Jordan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/a061b277e6844890b26919d50f6fe7fb_b51d51c80c764fc199ab68b983257d83_large.jpg', 5);
+('bd_0204', 'Giày đội tuyển Jordan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/a061b277e6844890b26919d50f6fe7fb_b51d51c80c764fc199ab68b983257d83_large.jpg', 5),
+('bd_0205', 'Áo đội tuyển Việt Nam đỏ sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 100, 200000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-vietnam-san-nha-1.jpg', 2);
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('bd_0205', 'Áo đội tuyển Việt Nam đỏ sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 100, 200000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-vietnam-san-nha-1.jpg', 2),
 ('bd_0206', 'Áo đội tuyển Việt Nam sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân khách, đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển', 150, 200000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-vietnam-san-khach-1.jpg', 6),
 ('bd_0207', 'Giày đội tuyển Việt Nam', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 150000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 1),
 ('bd_0208', 'Áo đội tuyển Nhật Bản sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 100, 150000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-nhat-san-nha-2-400x400.jpg', 2),
@@ -2380,9 +2500,9 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0393', 'Giày đội tuyển Trung Quốc', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/0956b8fdc5fa424d998e8d86de9e2f85_1b2e754878f44f4ba2a1039bff3adb61_large.jpg', 5),
 ('bd_0394', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-man-city-san-khach-2-2-400x400.jpg', 4),
 ('bd_0395', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-man-city-san-khach-2-2-400x400.jpg', 3),
-('bd_0396', 'Giày đội tuyển Thổ Nhĩ Kỳ', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/at7978-160_176b74b122654ef0951e6ace08a30141_large.jpg', 0);
+('bd_0396', 'Giày đội tuyển Thổ Nhĩ Kỳ', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/at7978-160_176b74b122654ef0951e6ace08a30141_large.jpg', 0),
+('bd_0397', 'Áo đội tuyển Oman sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-man-city-san-khach-mau-ba-2-400x400.jpg', 14);
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('bd_0397', 'Áo đội tuyển Oman sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-man-city-san-khach-mau-ba-2-400x400.jpg', 14),
 ('bd_0398', 'Áo đội tuyển Oman sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-man-city-san-khach-mau-ba-2-400x400.jpg', 7),
 ('bd_0399', 'Giày đội tuyển Oman', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/930840614e824527be2fd8409f5191b9_a019afffcfed41fa9965f7637353bfc4_large.jpg', 1),
 ('bd_0400', 'Áo đội tuyển Qatar sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/07/Ao-man-city-san-nha-2-400x400.jpg', 9),
@@ -2573,9 +2693,9 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0586', 'Áo đội tuyển Mông Cổ sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-juventus-san-khach-mau-ba-hang-viet-nam-1-400x400.jpg', 4),
 ('bd_0587', 'Áo đội tuyển Mông Cổ sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-juventus-san-khach-mau-ba-hang-viet-nam-1-400x400.jpg', 7),
 ('bd_0588', 'Giày đội tuyển Mông Cổ', '1', 'Mẫu giày bóng đá mới của đội tuyển', 160, 210000.00, 'https://product.hstatic.net/1000061481/product/9ca5b0955f7c4922985b89d9b606f9c0_860201abd0d04846929c5ca4b79c97fc_large.jpg', 15),
-('bd_0589', 'Áo đội tuyển Triều Tiên sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-liverpool-san-nha-hang-viet-nam-1-400x400.jpg', 28);
+('bd_0589', 'Áo đội tuyển Triều Tiên sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-liverpool-san-nha-hang-viet-nam-1-400x400.jpg', 28),
+('bd_0590', 'Áo đội tuyển Triều Tiên sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-liverpool-san-nha-hang-viet-nam-1-400x400.jpg', 1);
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('bd_0590', 'Áo đội tuyển Triều Tiên sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-liverpool-san-nha-hang-viet-nam-1-400x400.jpg', 1),
 ('bd_0591', 'Giày đội tuyển Triều Tiên', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://product.hstatic.net/1000061481/product/at8000-104_e4dcc451627c4b31afa414464c7018b8_large.jpg', 20),
 ('bd_0592', 'Áo đội tuyển Hàn Quốc sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-man-city-san-khach-hang-viet-nam-1-400x400.jpg', 19),
 ('bd_0593', 'Áo đội tuyển Hàn Quốc sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-man-city-san-khach-hang-viet-nam-1-400x400.jpg', 5),
@@ -2766,9 +2886,9 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0778', 'Áo đội tuyển Campuchia sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-dortmund-san-nha-hang-viet-nam-1-400x400.jpg', 10),
 ('bd_0779', 'Áo đội tuyển Campuchia sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-dortmund-san-nha-hang-viet-nam-1-400x400.jpg', 11),
 ('bd_0780', 'Giày đội tuyển Campuchia', '1', 'Mẫu giày bóng đá mới của đội tuyển', 160, 180000.00, 'https://product.hstatic.net/1000061481/product/at8143-906_0cf916671184445c94d07da7804a1a4c_large.jpg', 16),
-('bd_0781', 'Áo đội tuyển Đông Timor sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-galaxy-san-nha-2-400x400.jpg', 23);
+('bd_0781', 'Áo đội tuyển Đông Timor sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-galaxy-san-nha-2-400x400.jpg', 23),
+('bd_0782', 'Áo đội tuyển Đông Timor sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-galaxy-san-nha-2-400x400.jpg', 14);
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('bd_0782', 'Áo đội tuyển Đông Timor sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-galaxy-san-nha-2-400x400.jpg', 14),
 ('bd_0783', 'Giày đội tuyển Đông Timor', '1', 'Mẫu giày bóng đá mới của đội tuyển', 160, 180000.00, 'https://product.hstatic.net/1000061481/product/559d7eba001948d591ab6d69910e920d_8d1d4bca29a246b587052a2794c89b27_large.jpg', 0),
 ('bd_0784', 'Áo đội tuyển Singapore sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-inter-milan-san-khach-2-400x400.jpg', 1),
 ('bd_0785', 'Áo đội tuyển Singapore sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-inter-milan-san-khach-2-400x400.jpg', 2),
@@ -2876,7 +2996,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0887', 'Áo đội tuyển Singapore sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-inter-milan-san-khach-2-400x400.jpg', 7),
 ('bd_0888', 'Giày đội tuyển Singapore', '1', 'Mẫu giày bóng đá mới của đội tuyển', 160, 210000.00, 'https://product.hstatic.net/1000061481/product/cc66e661fa334a3bb5ea06a2ba10b5eb_b5522ee100094a719074babe6f475af1_large.jpg', 15),
 ('bd_0889', 'Áo đội tuyển Đài Loan sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-juventus-san-khach-2-1-400x400.jpg', 28),
-('bd_0890', 'Áo đội tuyển Đài Loan sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-juventus-san-khach-2-1-400x400.jpg', 32),
+('bd_0890', 'Áo đội tuyển Đài Loan sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 158, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-juventus-san-khach-2-1-400x400.jpg', 33),
 ('bd_0891', 'Giày đội tuyển Đài Loan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 160, 210000.00, 'https://product.hstatic.net/1000061481/product/at8144-104_c432d279358c433cb11fc94c3c07f114_large.jpg', 20),
 ('bd_0892', 'Áo đội tuyển Mông Cổ sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-juventus-san-khach-mau-ba-hang-viet-nam-1-400x400.jpg', 19),
 ('bd_0893', 'Áo đội tuyển Mông Cổ sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 160, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-juventus-san-khach-mau-ba-hang-viet-nam-1-400x400.jpg', 5),
@@ -2950,7 +3070,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0961', 'Áo đội tuyển Nga sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 200000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-nga-san-nha-2-400x400.jpg', 2),
 ('bd_0962', 'Áo đội tuyển Nga sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 200000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-nga-san-nha-2-400x400.jpg', 17),
 ('bd_0963', 'Giày đội tuyển Nga', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 15),
-('bd_0964', 'Áo đội tuyển Indonesia sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-arsenal-san-nha-2-400x400.jpg', 32),
+('bd_0964', 'Áo đội tuyển Indonesia sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-arsenal-san-nha-2-400x400.jpg', 33),
 ('bd_0965', 'Áo đội tuyển Indonesia sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-arsenal-san-nha-2-400x400.jpg', 23),
 ('bd_0966', 'Giày đội tuyển Indonesia', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 18),
 ('bd_0967', 'Áo đội tuyển Myanmar sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-arsenal-san-khach-2-400x400.jpg', 7),
@@ -2958,9 +3078,9 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_0969', 'Giày đội tuyển Myanmar', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 2),
 ('bd_0970', 'Áo đội tuyển Thái Lan sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-arsenal-san-khach-2-2-400x400.jpg', 1),
 ('bd_0971', 'Áo đội tuyển Thái Lan sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2017/06/Ao-arsenal-san-khach-2-2-400x400.jpg', 1),
-('bd_0972', 'Giày đội tuyển Thái Lan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 2);
+('bd_0972', 'Giày đội tuyển Thái Lan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 2),
+('bd_0973', 'Áo đội tuyển Malaysia sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-barca-san-khach-hang-viet-nam-1-400x400.jpg', 5);
 INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
-('bd_0973', 'Áo đội tuyển Malaysia sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-barca-san-khach-hang-viet-nam-1-400x400.jpg', 5),
 ('bd_0974', 'Áo đội tuyển Malaysia sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-barca-san-khach-hang-viet-nam-1-400x400.jpg', 0),
 ('bd_0975', 'Giày đội tuyển Malaysia', '1', 'Mẫu giày bóng đá mới của đội tuyển', 140, 180000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 7),
 ('bd_0976', 'Áo đội tuyển Philippines sân nhà', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 140, 180000.00, 'https://www.sporter.vn/wp-content/uploads/2020/09/Ao-barca-mau-ba-2-400x400.jpg', 8),
@@ -3009,8 +3129,8 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('bd_1019', 'Áo đội tuyển Jordan sân khách', '1', 'Mẫu quần áo bóng đá đội tuyển Việt Nam sân nhà , đây là mẫu quần áo bóng đá sân mùa giải mới của đội tuyển.', 180, 210000.00, 'https://www.sporter.vn/wp-content/uploads/2020/08/Ao-mu-san-nha-hang-viet-nam-1-400x400.jpg', 4),
 ('bd_1020', 'Giày đội tuyển Jordan', '1', 'Mẫu giày bóng đá mới của đội tuyển', 180, 210000.00, 'https://giaydabongtot.com/wp-content/uploads/2019/06/Giay-da-bong-cua-doi-tuyen-Viet-Nam-Adidas-ACE-16.1-mau-xanh-chuoi-1000x501.jpg', 4),
 ('br_0001', 'Áo đội tuyển Việt Nam đỏ sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển quốc gia', 120, 165000.00, 'https://giaybongro.vn/upload/images/998240400/63/8194_1589194480_thumb3.jpg', 1),
-('br_0002', 'Áo đội tuyển Việt Nam sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/995562000/63/8031_1564203749_thumb3.jpg', 1),
-('br_0003', 'Giày đội tuyển Việt Nam', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/5260_1593515152_thumb2.jpg', 1),
+('br_0002', 'Áo đội tuyển Việt Nam sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 119, 155000.00, 'https://giaybongro.vn/upload/images/995562000/63/8031_1564203749_thumb3.jpg', 1),
+('br_0003', 'Giày đội tuyển Việt Nam', '2', 'Mẫu giày bóng rổ của đội tuyển', 119, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/5260_1593515152_thumb2.jpg', 2),
 ('br_0004', 'Áo đội tuyển Nhật Bản sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/7628_1589194630_thumb3.jpg', 5),
 ('br_0005', 'Áo đội tuyển Nhật Bản sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/7460_1585767495_thumb3.jpg', 2),
 ('br_0006', 'Giày đội tuyển Nhật Bản', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/9919_1593514991_thumb2.jpg', 6),
@@ -3201,10 +3321,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0191', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/63/6979_1564060673_thumb2.jpg', 20),
 ('br_0192', 'Giày đội tuyển Thổ Nhĩ Kỳ', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/998240400/88/7970_1591790780_thumb2.jpg', 19),
 ('br_0193', 'Áo đội tuyển Oman sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/63/7181_1564060695_thumb2.jpg', 5),
-('br_0194', 'Áo đội tuyển Oman sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/63/7181_1564060695_thumb2.jpg', 4);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('br_0194', 'Áo đội tuyển Oman sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/63/7181_1564060695_thumb2.jpg', 4),
 ('br_0195', 'Giày đội tuyển Oman', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/88/5618_1562850507_thumb2.jpg', 3),
-('br_0196', 'Áo đội tuyển Qatar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 0),
+('br_0196', 'Áo đội tuyển Qatar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 0);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('br_0197', 'Áo đội tuyển Qatar sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 14),
 ('br_0198', 'Giày đội tuyển Qatar', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/88/9827_1562850606_thumb2.jpg', 7),
 ('br_0199', 'Áo đội tuyển Iraq sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 1),
@@ -3465,10 +3585,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0454', 'Áo đội tuyển Indonesia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/9653_1578569531_thumb3.jpg', 16),
 ('br_0455', 'Áo đội tuyển Indonesia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 4),
 ('br_0456', 'Giày đội tuyển Indonesia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/3905_1595496827_thumb2.jpg', 9),
-('br_0457', 'Áo đội tuyển Myanmar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 7);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('br_0457', 'Áo đội tuyển Myanmar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 7),
 ('br_0458', 'Áo đội tuyển Myanmar sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 0),
-('br_0459', 'Giày đội tuyển Myanmar', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/991_1591790731_thumb2.jpg', 6),
+('br_0459', 'Giày đội tuyển Myanmar', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/991_1591790731_thumb2.jpg', 6);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('br_0460', 'Áo đội tuyển Thái Lan sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/1672_1567162997_thumb3.jpg', 8),
 ('br_0461', 'Áo đội tuyển Thái Lan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/35_1567163028_thumb2.jpg', 2),
 ('br_0462', 'Giày đội tuyển Thái Lan', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/8072_1591790686_thumb2.jpg', 17),
@@ -3573,7 +3693,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0561', 'Giày đội tuyển Myanmar', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/991_1591790731_thumb2.jpg', 2),
 ('br_0562', 'Áo đội tuyển Thái Lan sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/1672_1567162997_thumb3.jpg', 17),
 ('br_0563', 'Áo đội tuyển Thái Lan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/35_1567163028_thumb2.jpg', 15),
-('br_0564', 'Giày đội tuyển Thái Lan', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/8072_1591790686_thumb2.jpg', 32),
+('br_0564', 'Giày đội tuyển Thái Lan', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/8072_1591790686_thumb2.jpg', 1),
 ('br_0565', 'Áo đội tuyển Malaysia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/1324_1578906817_thumb3.jpg', 23),
 ('br_0566', 'Áo đội tuyển Malaysia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/9958_1589195918_thumb3.jpg', 18),
 ('br_0567', 'Giày đội tuyển Malaysia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/3146_1591790679_thumb2.jpg', 7),
@@ -3599,7 +3719,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0587', 'Áo đội tuyển Mông Cổ sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/8930_1585768329_thumb3.jpg', 7),
 ('br_0588', 'Giày đội tuyển Mông Cổ', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/7877_1580317792_thumb2.jpg', 15),
 ('br_0589', 'Áo đội tuyển Triều Tiên sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/177_1564057915_thumb3.jpg', 28),
-('br_0590', 'Áo đội tuyển Triều Tiên sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/7771_1564061927_thumb3.jpg', 32),
+('br_0590', 'Áo đội tuyển Triều Tiên sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 149, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/7771_1564061927_thumb3.jpg', 1),
 ('br_0591', 'Giày đội tuyển Triều Tiên', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/88/5249_1574075840_thumb2.jpg', 20),
 ('br_0592', 'Áo đội tuyển Hàn Quốc sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/4843_1564061965_thumb3.jpg', 19),
 ('br_0593', 'Áo đội tuyển Hàn Quốc sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 140000.00, 'https://giaybongro.vn/upload/images/995562000/63/6549_1564060922_thumb3.jpg', 5),
@@ -3699,7 +3819,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0687', 'Giày đội tuyển Đài Loan', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/88/3170_1564232753_thumb3.jpg', 7),
 ('br_0688', 'Áo đội tuyển Mông Cổ sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/567_1585769038_thumb3.jpg', 15),
 ('br_0689', 'Áo đội tuyển Mông Cổ sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/8930_1585768329_thumb3.jpg', 28),
-('br_0690', 'Giày đội tuyển Mông Cổ', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/7877_1580317792_thumb2.jpg', 32),
+('br_0690', 'Giày đội tuyển Mông Cổ', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/7877_1580317792_thumb2.jpg', 1),
 ('br_0691', 'Áo đội tuyển Triều Tiên sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/177_1564057915_thumb3.jpg', 20),
 ('br_0692', 'Áo đội tuyển Triều Tiên sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/7771_1564061927_thumb3.jpg', 19),
 ('br_0693', 'Giày đội tuyển Triều Tiên', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/88/5249_1574075840_thumb2.jpg', 5),
@@ -3729,10 +3849,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0717', 'Giày đội tuyển Việt Nam', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/5260_1593515152_thumb2.jpg', 0),
 ('br_0718', 'Áo đội tuyển Nhật Bản sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/7628_1589194630_thumb3.jpg', 4),
 ('br_0719', 'Áo đội tuyển Nhật Bản sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/7460_1585767495_thumb3.jpg', 4),
-('br_0720', 'Giày đội tuyển Nhật Bản', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/9919_1593514991_thumb2.jpg', 7);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('br_0720', 'Giày đội tuyển Nhật Bản', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/9919_1593514991_thumb2.jpg', 7),
 ('br_0721', 'Áo đội tuyển Brazil sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/9718_1597091789_thumb2.jpg', 12),
-('br_0722', 'Áo đội tuyển Brazil sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/2485_1597092302_thumb2.jpg', 0),
+('br_0722', 'Áo đội tuyển Brazil sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/2485_1597092302_thumb2.jpg', 0);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('br_0723', 'Giày đội tuyển Brazil', '2', 'Mẫu giày bóng rổ của đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/88/7166_1594368872_thumb2.jpg', 1),
 ('br_0724', 'Áo đội tuyển Argentina sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/3680_1597092202_thumb2.jpg', 8),
 ('br_0725', 'Áo đội tuyển Argentina sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 120, 155000.00, 'https://giaybongro.vn/upload/images/998240400/63/8787_1597091908_thumb2.jpg', 3),
@@ -3774,7 +3894,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0761', 'Áo đội tuyển Indonesia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 2),
 ('br_0762', 'Giày đội tuyển Indonesia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/3905_1595496827_thumb2.jpg', 17),
 ('br_0763', 'Áo đội tuyển Myanmar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 15),
-('br_0764', 'Áo đội tuyển Myanmar sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 32),
+('br_0764', 'Áo đội tuyển Myanmar sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 173, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 1),
 ('br_0765', 'Giày đội tuyển Myanmar', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/991_1591790731_thumb2.jpg', 23),
 ('br_0766', 'Áo đội tuyển Thái Lan sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/1672_1567162997_thumb3.jpg', 18),
 ('br_0767', 'Áo đội tuyển Thái Lan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/35_1567163028_thumb2.jpg', 7),
@@ -3800,7 +3920,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0787', 'Áo đội tuyển Đài Loan sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/1349_1585769678_thumb3.jpg', 7),
 ('br_0788', 'Áo đội tuyển Đài Loan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/652_1585769981_thumb3.jpg', 15),
 ('br_0789', 'Giày đội tuyển Đài Loan', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/88/3170_1564232753_thumb3.jpg', 28),
-('br_0790', 'Áo đội tuyển Mông Cổ sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/567_1585769038_thumb3.jpg', 32),
+('br_0790', 'Áo đội tuyển Mông Cổ sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/567_1585769038_thumb3.jpg', 1),
 ('br_0791', 'Áo đội tuyển Mông Cổ sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/8930_1585768329_thumb3.jpg', 20),
 ('br_0792', 'Giày đội tuyển Mông Cổ', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/7877_1580317792_thumb2.jpg', 19),
 ('br_0793', 'Áo đội tuyển Triều Tiên sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/177_1564057915_thumb3.jpg', 5),
@@ -3874,7 +3994,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0861', 'Giày đội tuyển Nga', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/2649_1593515845_thumb2.jpg', 2),
 ('br_0862', 'Áo đội tuyển Indonesia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/9653_1578569531_thumb3.jpg', 17),
 ('br_0863', 'Áo đội tuyển Indonesia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 15),
-('br_0864', 'Giày đội tuyển Indonesia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/3905_1595496827_thumb2.jpg', 32),
+('br_0864', 'Giày đội tuyển Indonesia', '2', 'Mẫu giày bóng rổ của đội tuyển', 172, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/3905_1595496827_thumb2.jpg', 1),
 ('br_0865', 'Áo đội tuyển Myanmar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 23),
 ('br_0866', 'Áo đội tuyển Myanmar sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 18),
 ('br_0867', 'Giày đội tuyển Myanmar', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/991_1591790731_thumb2.jpg', 7),
@@ -3900,7 +4020,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0887', 'Áo đội tuyển Singapore sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/4483_1602496879_thumb2.jpg', 7),
 ('br_0888', 'Giày đội tuyển Singapore', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/9263_1591790740_thumb2.jpg', 15),
 ('br_0889', 'Áo đội tuyển Đài Loan sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/1349_1585769678_thumb3.jpg', 28),
-('br_0890', 'Áo đội tuyển Đài Loan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/652_1585769981_thumb3.jpg', 32),
+('br_0890', 'Áo đội tuyển Đài Loan sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/652_1585769981_thumb3.jpg', 1),
 ('br_0891', 'Giày đội tuyển Đài Loan', '2', 'Mẫu giày bóng rổ của đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/995562000/88/3170_1564232753_thumb3.jpg', 20),
 ('br_0892', 'Áo đội tuyển Mông Cổ sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/567_1585769038_thumb3.jpg', 19),
 ('br_0893', 'Áo đội tuyển Mông Cổ sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 150, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/8930_1585768329_thumb3.jpg', 5),
@@ -3974,7 +4094,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0961', 'Áo đội tuyển Nga sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/4180_1602574366_thumb2.jpg', 2),
 ('br_0962', 'Áo đội tuyển Nga sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/3449_1602574366_thumb2.jpg', 17),
 ('br_0963', 'Giày đội tuyển Nga', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/2649_1593515845_thumb2.jpg', 15),
-('br_0964', 'Áo đội tuyển Indonesia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/9653_1578569531_thumb3.jpg', 32),
+('br_0964', 'Áo đội tuyển Indonesia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 174, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/9653_1578569531_thumb3.jpg', 1),
 ('br_0965', 'Áo đội tuyển Indonesia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/8253_1578747210_thumb3.jpg', 23),
 ('br_0966', 'Giày đội tuyển Indonesia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/88/3905_1595496827_thumb2.jpg', 18),
 ('br_0967', 'Áo đội tuyển Myanmar sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 125000.00, 'https://giaybongro.vn/upload/images/998240400/63/6316_1578907905_thumb3.jpg', 7),
@@ -3993,10 +4113,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('br_0980', 'Áo đội tuyển Lào sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/3528_1578569237_thumb3.jpg', 16),
 ('br_0981', 'Giày đội tuyển Lào', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/7430_1591790698_thumb2.jpg', 1),
 ('br_0982', 'Áo đội tuyển Campuchia sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/284_1587583216_thumb3.jpg', 3),
-('br_0983', 'Áo đội tuyển Campuchia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/3491_1602496948_thumb2.jpg', 2);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('br_0983', 'Áo đội tuyển Campuchia sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/3491_1602496948_thumb2.jpg', 2),
 ('br_0984', 'Giày đội tuyển Campuchia', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/3976_1591790752_thumb2.jpg', 5),
-('br_0985', 'Áo đội tuyển Đông Timor sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/3558_1564061218_thumb2.jpg', 2),
+('br_0985', 'Áo đội tuyển Đông Timor sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/3558_1564061218_thumb2.jpg', 2);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('br_0986', 'Áo đội tuyển Đông Timor sân khách', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/995562000/63/5901_1564284803_thumb3.png', 6),
 ('br_0987', 'Giày đội tuyển Đông Timor', '2', 'Mẫu giày bóng rổ của đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/88/8841_1591790731_thumb2.jpg', 1),
 ('br_0988', 'Áo đội tuyển Singapore sân nhà', '2', 'Mẫu quần áo bóng rổ đội tuyển', 175, 180000.00, 'https://giaybongro.vn/upload/images/998240400/63/4483_1602496879_thumb2.jpg', 2),
@@ -4095,7 +4215,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0061', 'Áo đội tuyển Lào sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1870-ao-cau-long-nu-co-tron-victor-1786a-1.jpg', 2),
 ('cl_0062', 'Áo đội tuyển Lào sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1865-ao-cau-long-nam-co-tron-lining-1788a-1.jpg', 17),
 ('cl_0063', 'Vợt đội tuyển Lào', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K80.png', 15),
-('cl_0064', 'Áo đội tuyển Campuchia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1862-ao-cau-long-nam-co-tron-lining-2001a-1.jpg', 32),
+('cl_0064', 'Áo đội tuyển Campuchia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1862-ao-cau-long-nam-co-tron-lining-2001a-1.jpg', 1),
 ('cl_0065', 'Áo đội tuyển Campuchia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1860-ao-cau-long-namco-tron-yonex-2002a-1.jpg', 23),
 ('cl_0066', 'Vợt đội tuyển Campuchia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Kawasaki%20266.png', 18),
 ('cl_0067', 'Áo đội tuyển Đông Timor sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1854-ao-cau-long-nam-co-tron-lining-6031a-1.jpg', 7),
@@ -4121,7 +4241,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0087', 'Vợt đội tuyển Trung Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F3%20Xanh%20chuoi%20Do.png', 7),
 ('cl_0088', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1699-ao-cau-long-nam-co-tron-nike-17433-1.jpg', 15),
 ('cl_0089', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1683-ao-cau-long-nam-co-tron-lining-1781a-1.jpg', 28),
-('cl_0090', 'Vợt đội tuyển Thổ Nhĩ Kỳ', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F2%20Cam.png', 32),
+('cl_0090', 'Vợt đội tuyển Thổ Nhĩ Kỳ', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F2%20Cam.png', 1),
 ('cl_0091', 'Áo đội tuyển Oman sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1681-ao-cau-long-nam-co-tron-yonex-3079a-1.jpg', 20),
 ('cl_0092', 'Áo đội tuyển Oman sân khách', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1678-ao-cau-long-nam-co-tron-raceway-4477ab-1.jpg', 19),
 ('cl_0093', 'Vợt đội tuyển Oman', '3', 'Mẫu vợt cầu lông', 165, 240000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Kalkul%20A5%20Den%20Xanh%20la.png', 5),
@@ -4195,7 +4315,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0161', 'Áo đội tuyển Philippines sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1878-ao-cau-long-namco-tron-yonex-2006a-1.jpg', 2),
 ('cl_0162', 'Vợt đội tuyển Philippines', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K81.png', 17),
 ('cl_0163', 'Áo đội tuyển Lào sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1870-ao-cau-long-nu-co-tron-victor-1786a-1.jpg', 15),
-('cl_0164', 'Áo đội tuyển Lào sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1865-ao-cau-long-nam-co-tron-lining-1788a-1.jpg', 32),
+('cl_0164', 'Áo đội tuyển Lào sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1865-ao-cau-long-nam-co-tron-lining-1788a-1.jpg', 1),
 ('cl_0165', 'Vợt đội tuyển Lào', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K80.png', 23),
 ('cl_0166', 'Áo đội tuyển Campuchia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1862-ao-cau-long-nam-co-tron-lining-2001a-1.jpg', 18),
 ('cl_0167', 'Áo đội tuyển Campuchia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1860-ao-cau-long-namco-tron-yonex-2002a-1.jpg', 7),
@@ -4221,7 +4341,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0187', 'Áo đội tuyển Trung Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1752-ao-cau-long-nam-co-tron-mizuno-7787a-1.jpg', 7),
 ('cl_0188', 'Áo đội tuyển Trung Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1730-ao-cau-long-nam-co-tron-yonex-logo-1.jpg', 15),
 ('cl_0189', 'Vợt đội tuyển Trung Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F3%20Xanh%20chuoi%20Do.png', 28),
-('cl_0190', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1699-ao-cau-long-nam-co-tron-nike-17433-1.jpg', 32),
+('cl_0190', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1699-ao-cau-long-nam-co-tron-nike-17433-1.jpg', 1),
 ('cl_0191', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1683-ao-cau-long-nam-co-tron-lining-1781a-1.jpg', 20),
 ('cl_0192', 'Vợt đội tuyển Thổ Nhĩ Kỳ', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F2%20Cam.png', 19),
 ('cl_0193', 'Áo đội tuyển Oman sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1681-ao-cau-long-nam-co-tron-yonex-3079a-1.jpg', 5),
@@ -4260,10 +4380,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0226', 'Áo đội tuyển Anh sân nhà', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/507-ao-cau-long-nam-co-tron-yonex-1798a-1.jpg', 9),
 ('cl_0227', 'Áo đội tuyển Anh sân khách', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/429-ao-cau-long-nam-co-tron-yonex-1923a-1.jpg', 24),
 ('cl_0228', 'Vợt đội tuyển Anh', '3', 'Mẫu vợt cầu lông', 135, 150000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Spieler%20A09.1%20Legend%20Ink%20Core%20-%20Xanh.png', 14),
-('cl_0229', 'Áo đội tuyển Pháp sân nhà', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/468-ao-cau-long-nam-co-tron-yonex-7757a-1.jpg', 7);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('cl_0229', 'Áo đội tuyển Pháp sân nhà', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/468-ao-cau-long-nam-co-tron-yonex-7757a-1.jpg', 7),
 ('cl_0230', 'Áo đội tuyển Pháp sân khách', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/428-ao-cau-long-nam-co-tron-yonex-6035a-1.jpg', 18),
-('cl_0231', 'Vợt đội tuyển Pháp', '3', 'Mẫu vợt cầu lông', 135, 150000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/DX-5H-D_05-900x900.jpg', 0),
+('cl_0231', 'Vợt đội tuyển Pháp', '3', 'Mẫu vợt cầu lông', 135, 150000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/DX-5H-D_05-900x900.jpg', 0);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('cl_0232', 'Áo đội tuyển Bồ Đào Nha sân nhà', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/344-ao-cau-long-nam-co-tron-lining-1795a-1.jpg', 5),
 ('cl_0233', 'Áo đội tuyển Bồ Đào Nha sân khách', '3', 'Mẫu quần áo cầu lông', 135, 150000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/254-ao-cau-long-nam-co-tron-victor-1796a-1.jpg', 21),
 ('cl_0234', 'Vợt đội tuyển Bồ Đào Nha', '3', 'Mẫu vợt cầu lông', 135, 150000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/votcaulong-js-120.jpg', 3),
@@ -4296,7 +4416,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0261', 'Vợt đội tuyển Malaysia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Untitled1_2.png', 2),
 ('cl_0262', 'Áo đội tuyển Philippines sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1934-ao-cau-long-nam-co-tron-lining-1790a-1.jpg', 17),
 ('cl_0263', 'Áo đội tuyển Philippines sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1878-ao-cau-long-namco-tron-yonex-2006a-1.jpg', 15),
-('cl_0264', 'Vợt đội tuyển Philippines', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K81.png', 32),
+('cl_0264', 'Vợt đội tuyển Philippines', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K81.png', 1),
 ('cl_0265', 'Áo đội tuyển Lào sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1870-ao-cau-long-nu-co-tron-victor-1786a-1.jpg', 23),
 ('cl_0266', 'Áo đội tuyển Lào sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1865-ao-cau-long-nam-co-tron-lining-1788a-1.jpg', 18),
 ('cl_0267', 'Vợt đội tuyển Lào', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K80.png', 7),
@@ -4322,7 +4442,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0287', 'Áo đội tuyển Hàn Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1074-ao-cau-long-nam-co-tron-kumpoo-1031a-1.jpg', 7),
 ('cl_0288', 'Vợt đội tuyển Hàn Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F1%20Xanh%20chuoi.png', 15),
 ('cl_0289', 'Áo đội tuyển Trung Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1752-ao-cau-long-nam-co-tron-mizuno-7787a-1.jpg', 28),
-('cl_0290', 'Áo đội tuyển Trung Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1730-ao-cau-long-nam-co-tron-yonex-logo-1.jpg', 32),
+('cl_0290', 'Áo đội tuyển Trung Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1730-ao-cau-long-nam-co-tron-yonex-logo-1.jpg', 1),
 ('cl_0291', 'Vợt đội tuyển Trung Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F3%20Xanh%20chuoi%20Do.png', 20),
 ('cl_0292', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1699-ao-cau-long-nam-co-tron-nike-17433-1.jpg', 19),
 ('cl_0293', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1683-ao-cau-long-nam-co-tron-lining-1781a-1.jpg', 5),
@@ -4396,7 +4516,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0361', 'Áo đội tuyển Malaysia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1961-ao-cau-long-nam-co-tron-victor-1792a-1.jpg', 2),
 ('cl_0362', 'Áo đội tuyển Malaysia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1960-ao-cau-long-nam-co-tron-victor-1791a-1.jpg', 17),
 ('cl_0363', 'Vợt đội tuyển Malaysia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Untitled1_2.png', 15),
-('cl_0364', 'Áo đội tuyển Philippines sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1934-ao-cau-long-nam-co-tron-lining-1790a-1.jpg', 32),
+('cl_0364', 'Áo đội tuyển Philippines sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1934-ao-cau-long-nam-co-tron-lining-1790a-1.jpg', 1),
 ('cl_0365', 'Áo đội tuyển Philippines sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1878-ao-cau-long-namco-tron-yonex-2006a-1.jpg', 23),
 ('cl_0366', 'Vợt đội tuyển Philippines', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Vot%20Kumpoo%20K81.png', 18),
 ('cl_0367', 'Áo đội tuyển Lào sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1870-ao-cau-long-nu-co-tron-victor-1786a-1.jpg', 7),
@@ -4422,7 +4542,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0387', 'Vợt đội tuyển Triều Tiên', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Mizuno%20Altius%2001%20Feel%20Special%20Edition%20xanh.png', 7),
 ('cl_0388', 'Áo đội tuyển Hàn Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1761-ao-cau-long-nam-co-tron-211a-1.jpg', 15),
 ('cl_0389', 'Áo đội tuyển Hàn Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1074-ao-cau-long-nam-co-tron-kumpoo-1031a-1.jpg', 28),
-('cl_0390', 'Vợt đội tuyển Hàn Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F1%20Xanh%20chuoi.png', 32),
+('cl_0390', 'Vợt đội tuyển Hàn Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F1%20Xanh%20chuoi.png', 1),
 ('cl_0391', 'Áo đội tuyển Trung Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1752-ao-cau-long-nam-co-tron-mizuno-7787a-1.jpg', 20),
 ('cl_0392', 'Áo đội tuyển Trung Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1730-ao-cau-long-nam-co-tron-yonex-logo-1.jpg', 19),
 ('cl_0393', 'Vợt đội tuyển Trung Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F3%20Xanh%20chuoi%20Do.png', 5),
@@ -4496,7 +4616,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0461', 'Áo đội tuyển Thái Lan sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2041-ao-cau-long-nam-co-tron-yonex-1801a-1.jpg', 2),
 ('cl_0462', 'Vợt đội tuyển Thái Lan', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/6_23.jpg', 17),
 ('cl_0463', 'Áo đội tuyển Malaysia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1961-ao-cau-long-nam-co-tron-victor-1792a-1.jpg', 15),
-('cl_0464', 'Áo đội tuyển Malaysia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1960-ao-cau-long-nam-co-tron-victor-1791a-1.jpg', 32),
+('cl_0464', 'Áo đội tuyển Malaysia sân khách', '3', 'Mẫu quần áo cầu lông', 152, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1960-ao-cau-long-nam-co-tron-victor-1791a-1.jpg', 34),
 ('cl_0465', 'Vợt đội tuyển Malaysia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Untitled1_2.png', 23),
 ('cl_0466', 'Áo đội tuyển Philippines sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1934-ao-cau-long-nam-co-tron-lining-1790a-1.jpg', 18),
 ('cl_0467', 'Áo đội tuyển Philippines sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1878-ao-cau-long-namco-tron-yonex-2006a-1.jpg', 7),
@@ -4522,17 +4642,17 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0487', 'Áo đội tuyển Triều Tiên sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1776-ao-cau-long-lining-3085a-1.jpg', 7),
 ('cl_0488', 'Áo đội tuyển Triều Tiên sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1764-ao-cau-long-nam-co-tron-3076a-1.jpg', 15),
 ('cl_0489', 'Vợt đội tuyển Triều Tiên', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Mizuno%20Altius%2001%20Feel%20Special%20Edition%20xanh.png', 28),
-('cl_0490', 'Áo đội tuyển Hàn Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1761-ao-cau-long-nam-co-tron-211a-1.jpg', 32),
+('cl_0490', 'Áo đội tuyển Hàn Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 135, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1761-ao-cau-long-nam-co-tron-211a-1.jpg', 36),
 ('cl_0491', 'Áo đội tuyển Hàn Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1074-ao-cau-long-nam-co-tron-kumpoo-1031a-1.jpg', 20),
 ('cl_0492', 'Vợt đội tuyển Hàn Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F1%20Xanh%20chuoi.png', 19),
 ('cl_0493', 'Áo đội tuyển Trung Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1752-ao-cau-long-nam-co-tron-mizuno-7787a-1.jpg', 5),
 ('cl_0494', 'Áo đội tuyển Trung Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1730-ao-cau-long-nam-co-tron-yonex-logo-1.jpg', 4),
 ('cl_0495', 'Vợt đội tuyển Trung Quốc', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F3%20Xanh%20chuoi%20Do.png', 3),
 ('cl_0496', 'Áo đội tuyển Thổ Nhĩ Kỳ sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1699-ao-cau-long-nam-co-tron-nike-17433-1.jpg', 0),
-('cl_0497', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1683-ao-cau-long-nam-co-tron-lining-1781a-1.jpg', 14);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('cl_0497', 'Áo đội tuyển Thổ Nhĩ Kỳ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1683-ao-cau-long-nam-co-tron-lining-1781a-1.jpg', 14),
 ('cl_0498', 'Vợt đội tuyển Thổ Nhĩ Kỳ', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Uberschall%20F2%20Cam.png', 7),
-('cl_0499', 'Áo đội tuyển Oman sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1681-ao-cau-long-nam-co-tron-yonex-3079a-1.jpg', 1),
+('cl_0499', 'Áo đội tuyển Oman sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1681-ao-cau-long-nam-co-tron-yonex-3079a-1.jpg', 1);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('cl_0500', 'Áo đội tuyển Oman sân khách', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1678-ao-cau-long-nam-co-tron-raceway-4477ab-1.jpg', 9),
 ('cl_0501', 'Vợt đội tuyển Oman', '3', 'Mẫu vợt cầu lông', 165, 240000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Kalkul%20A5%20Den%20Xanh%20la.png', 1),
 ('cl_0502', 'Áo đội tuyển Qatar sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1677-ao-cau-long-nam-co-tron-raceway-3377a-1.jpg', 3),
@@ -4597,7 +4717,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0561', 'Vợt đội tuyển Myanmar', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/10_13.jpg', 2),
 ('cl_0562', 'Áo đội tuyển Thái Lan sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2043-ao-cau-long-nam-co-tron-yonex-2127a1-1.jpg', 17),
 ('cl_0563', 'Áo đội tuyển Thái Lan sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2041-ao-cau-long-nam-co-tron-yonex-1801a-1.jpg', 15),
-('cl_0564', 'Vợt đội tuyển Thái Lan', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/6_23.jpg', 32),
+('cl_0564', 'Vợt đội tuyển Thái Lan', '3', 'Mẫu vợt cầu lông', 158, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/6_23.jpg', 33),
 ('cl_0565', 'Áo đội tuyển Malaysia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1961-ao-cau-long-nam-co-tron-victor-1792a-1.jpg', 23),
 ('cl_0566', 'Áo đội tuyển Malaysia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1960-ao-cau-long-nam-co-tron-victor-1791a-1.jpg', 18),
 ('cl_0567', 'Vợt đội tuyển Malaysia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Untitled1_2.png', 7),
@@ -4623,7 +4743,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0587', 'Áo đội tuyển Mông Cổ sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1778-ao-cau-long-nam-yonex-1103a-1.jpg', 7),
 ('cl_0588', 'Vợt đội tuyển Mông Cổ', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Turbo%2070B.png', 15),
 ('cl_0589', 'Áo đội tuyển Triều Tiên sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1776-ao-cau-long-lining-3085a-1.jpg', 28),
-('cl_0590', 'Áo đội tuyển Triều Tiên sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1764-ao-cau-long-nam-co-tron-3076a-1.jpg', 32),
+('cl_0590', 'Áo đội tuyển Triều Tiên sân khách', '3', 'Mẫu quần áo cầu lông', 137, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1764-ao-cau-long-nam-co-tron-3076a-1.jpg', 33),
 ('cl_0591', 'Vợt đội tuyển Triều Tiên', '3', 'Mẫu vợt cầu lông', 140, 210000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Mizuno%20Altius%2001%20Feel%20Special%20Edition%20xanh.png', 20),
 ('cl_0592', 'Áo đội tuyển Hàn Quốc sân nhà', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1761-ao-cau-long-nam-co-tron-211a-1.jpg', 19),
 ('cl_0593', 'Áo đội tuyển Hàn Quốc sân khách', '3', 'Mẫu quần áo cầu lông', 140, 210000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1074-ao-cau-long-nam-co-tron-kumpoo-1031a-1.jpg', 5),
@@ -4697,7 +4817,7 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0661', 'Áo đội tuyển Myanmar sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2145-ao-cau-long-nam-co-tron-ko-logo-1107a-1.jpg', 2),
 ('cl_0662', 'Áo đội tuyển Myanmar sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2122-ao-cau-long-nam-co-tron-yonex-7717a-1.jpg', 17),
 ('cl_0663', 'Vợt đội tuyển Myanmar', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/10_13.jpg', 15),
-('cl_0664', 'Áo đội tuyển Thái Lan sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2043-ao-cau-long-nam-co-tron-yonex-2127a1-1.jpg', 32),
+('cl_0664', 'Áo đội tuyển Thái Lan sân nhà', '3', 'Mẫu quần áo cầu lông', 157, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2043-ao-cau-long-nam-co-tron-yonex-2127a1-1.jpg', 36),
 ('cl_0665', 'Áo đội tuyển Thái Lan sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2041-ao-cau-long-nam-co-tron-yonex-1801a-1.jpg', 23),
 ('cl_0666', 'Vợt đội tuyển Thái Lan', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/6_23.jpg', 18),
 ('cl_0667', 'Áo đội tuyển Malaysia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1961-ao-cau-long-nam-co-tron-victor-1792a-1.jpg', 7),
@@ -4797,10 +4917,10 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0761', 'Áo đội tuyển Indonesia sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2147-ao-cau-long-nam-co-tron-ko-logo-1105a-1.jpg', 2),
 ('cl_0762', 'Vợt đội tuyển Indonesia', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/7%20TD.png', 17),
 ('cl_0763', 'Áo đội tuyển Myanmar sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2145-ao-cau-long-nam-co-tron-ko-logo-1107a-1.jpg', 15),
-('cl_0764', 'Áo đội tuyển Myanmar sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2122-ao-cau-long-nam-co-tron-yonex-7717a-1.jpg', 32);
-INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
+('cl_0764', 'Áo đội tuyển Myanmar sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2122-ao-cau-long-nam-co-tron-yonex-7717a-1.jpg', 32),
 ('cl_0765', 'Vợt đội tuyển Myanmar', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/10_13.jpg', 23),
-('cl_0766', 'Áo đội tuyển Thái Lan sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2043-ao-cau-long-nam-co-tron-yonex-2127a1-1.jpg', 18),
+('cl_0766', 'Áo đội tuyển Thái Lan sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2043-ao-cau-long-nam-co-tron-yonex-2127a1-1.jpg', 18);
+INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `productDescription`, `quantityInStock`, `buyPrice`, `image`, `views`) VALUES
 ('cl_0767', 'Áo đội tuyển Thái Lan sân khách', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/2041-ao-cau-long-nam-co-tron-yonex-1801a-1.jpg', 7),
 ('cl_0768', 'Vợt đội tuyển Thái Lan', '3', 'Mẫu vợt cầu lông', 160, 175000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/6_23.jpg', 4),
 ('cl_0769', 'Áo đội tuyển Malaysia sân nhà', '3', 'Mẫu quần áo cầu lông', 160, 175000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1961-ao-cau-long-nam-co-tron-victor-1792a-1.jpg', 2),
@@ -4968,8 +5088,8 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_0931', 'Áo đội tuyển Mỹ sân nhà', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1318-ao-cau-long-nam-co-tron-victor-1927a-1.jpg', 0),
 ('cl_0932', 'Áo đội tuyển Mỹ sân khách', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1287-ao-cau-long-nam-co-tron-yonex-6048a-1.jpg', 1),
 ('cl_0933', 'Vợt đội tuyển Mỹ', '3', 'Mẫu vợt cầu lông', 119, 135000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Spieler%20W09.1%20Black%20Core%20-%20Den%20hong.png', 1),
-('cl_0934', 'Áo đội tuyển Mexico sân nhà', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1250-ao-cau-long-nam-co-tron-yonex-6046a-1.jpg', 1),
-('cl_0935', 'Áo đội tuyển Mexico sân khách', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1048-ao-cau-long-nam-co-tron-yonex-7767a1-1.jpg', 12),
+('cl_0934', 'Áo đội tuyển Mexico sân nhà', '3', 'Mẫu quần áo cầu lông', 119, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1250-ao-cau-long-nam-co-tron-yonex-6046a-1.jpg', 2),
+('cl_0935', 'Áo đội tuyển Mexico sân khách', '3', 'Mẫu quần áo cầu lông', 118, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1048-ao-cau-long-nam-co-tron-yonex-7767a1-1.jpg', 12),
 ('cl_0936', 'Vợt đội tuyển Mexico', '3', 'Mẫu vợt cầu lông', 120, 135000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/Adidas%20Spieler%20P09.1%20Grey%20Four%20Core%20-%20Den%20xanh.png', 4),
 ('cl_0937', 'Áo đội tuyển Tây Ban Nha sân nhà', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/735-ao-cau-long-nam-co-tron-yonex-1815a-1.jpg', 16),
 ('cl_0938', 'Áo đội tuyển Tây Ban Nha sân khách', '3', 'Mẫu quần áo cầu lông', 120, 135000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/163-ao-cau-long-nam-co-tron-yonex-1813a-1.jpg', 0),
@@ -5054,7 +5174,8 @@ INSERT INTO `products` (`productCode`, `productName`, `productLineCode`, `produc
 ('cl_1017', 'Vợt đội tuyển Iraq ', '3', 'Mẫu vợt cầu lông', 165, 240000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/600i.jpg', 24),
 ('cl_1018', 'Áo đội tuyển Jordan sân nhà', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1654-ao-cau-long-nam-co-tron-victor-6797a-1.jpg', 14),
 ('cl_1019', 'Áo đội tuyển Jordan sân khách', '3', 'Mẫu quần áo cầu lông', 165, 240000.00, 'http://caulong.com.vn/upload/sanpham/thumbs/1506-ao-cau-long-nam-co-tron-yonex-3017a-1.jpg', 7),
-('cl_1020', 'Vợt đội tuyển Jordan', '3', 'Mẫu vợt cầu lông', 165, 240000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/ADIDAS%20STILISTIN%20W1.1.png', 18);
+('cl_1020', 'Vợt đội tuyển Jordan', '3', 'Mẫu vợt cầu lông', 165, 240000.00, 'https://shopvnb.com/img/300x300//uploads/gallery/ADIDAS%20STILISTIN%20W1.1.png', 18),
+('ihoih8888', 'quàn áo 3vlN', '4', 'HHHH', 6649, 999999.00, '', 0);
 
 -- --------------------------------------------------------
 
@@ -8173,6 +8294,16 @@ ALTER TABLE `employees`
   ADD PRIMARY KEY (`employeeNumber`) USING BTREE;
 
 --
+-- Indexes for table `news`
+--
+ALTER TABLE `news`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `slug` (`slug`),
+  ADD KEY `category_id` (`category_id`),
+  ADD KEY `status` (`status`),
+  ADD KEY `created_at` (`created_at`);
+
+--
 -- Indexes for table `orderdetails`
 --
 ALTER TABLE `orderdetails`
@@ -8206,56 +8337,15 @@ ALTER TABLE `products`
   ADD PRIMARY KEY (`productCode`) USING BTREE,
   ADD KEY `productLine` (`productLineCode`) USING BTREE;
 
--- --------------------------------------------------------
-
 --
--- Table structure for table `news`
+-- AUTO_INCREMENT for dumped tables
 --
-
-CREATE TABLE `news` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `slug` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `description` text CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `content` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `image` varchar(255) DEFAULT NULL,
-  `category_id` int(11) DEFAULT 1,
-  `author` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT 'Admin',
-  `status` tinyint(1) DEFAULT 1 COMMENT '1: Published, 0: Draft',
-  `featured` tinyint(1) DEFAULT 0 COMMENT '1: Featured, 0: Normal',
-  `views` int(11) DEFAULT 0,
-  `tags` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci ROW_FORMAT=DYNAMIC;
-
---
--- Indexes for table `news`
---
-ALTER TABLE `news`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `slug` (`slug`),
-  ADD KEY `category_id` (`category_id`),
-  ADD KEY `status` (`status`),
-  ADD KEY `created_at` (`created_at`);
 
 --
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- Dumping data for table `news`
---
-
-INSERT INTO `news` (`id`, `title`, `slug`, `description`, `content`, `image`, `category_id`, `author`, `status`, `featured`, `views`, `tags`, `created_at`, `updated_at`) VALUES
-(1, 'Hướng dẫn chọn giày bóng đá phù hợp', 'huong-dan-chon-giay-bong-da-phu-hop', 'Bài viết hướng dẫn cách chọn giày bóng đá phù hợp với loại sân và vị trí thi đấu', '<p>Chọn giày bóng đá phù hợp là yếu tố quan trọng ảnh hưởng đến hiệu suất và an toàn khi thi đấu. Dưới đây là những lưu ý quan trọng:</p>\n<h3>1. Xác định loại sân</h3>\n<p>- <strong>Sân cỏ tự nhiên (FG):</strong> Dùng đinh dài, bám tốt trên cỏ thật</p>\n<p>- <strong>Sân cỏ nhân tạo (AG):</strong> Dùng đinh ngắn, nhiều đinh hơn để giảm áp lực</p>\n<p>- <strong>Sân cứng (HG):</strong> Dùng đinh tròn hoặc dẹt, phù hợp sân đất nện</p>\n<p>- <strong>Sân trong nhà (IC):</strong> Đế phẳng, không có đinh</p>\n<h3>2. Chọn theo vị trí thi đấu</h3>\n<p>- <strong>Thủ môn:</strong> Ưu tiên giày có đệm tốt, bảo vệ chân</p>\n<p>- <strong>Hậu vệ:</strong> Cần giày bám chắc, trọng lượng vừa phải</p>\n<p>- <strong>Tiền vệ:</strong> Giày nhẹ, linh hoạt, kiểm soát bóng tốt</p>\n<p>- <strong>Tiền đạo:</strong> Giày siêu nhẹ, hỗ trợ tốc độ và sút mạnh</p>\n<h3>3. Chất liệu và kích cỡ</h3>\n<p>- <strong>Da thật:</strong> Co giãn tốt, ôm chân</p>\n<p>- <strong>Vải tổng hợp:</strong> Nhẹ hơn, ít thấm nước</p>\n<p>- <strong>Kích cỡ:</strong> Chọn vừa vặn, không quá chật cũng không quá rộng</p>\n<p>Hãy đến cửa hàng của chúng tôi để được tư vấn chi tiết và thử trực tiếp các sản phẩm!</p>', 'news1.jpg', 1, 'Admin', 1, 1, 125, 'giày bóng đá,chọn giày,bóng đá,thể thao', '2026-05-10 10:30:00', '2026-05-10 10:30:00'),
-(2, '5 bài tập tăng cường sức mạnh cho cầu thủ bóng rổ', '5-bai-tap-tang-cuong-suc-manh-cho-cau-thu-bong-ro', 'Tổng hợp các bài tập hiệu quả giúp cải thiện sức mạnh và thể lực cho người chơi bóng rổ', '<p>Để trở thành một cầu thủ bóng rổ xuất sắc, việc rèn luyện sức mạnh là không thể thiếu. Dưới đây là 5 bài tập hiệu quả:</p>\n<h3>1. Squat với tạ</h3>\n<p>- Tăng cường sức mạnh cho chân</p>\n<p>- Cải thiện khả năng nhảy cao</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 8-12 lần</p>\n<h3>2. Deadlift</h3>\n<p>- Phát triển toàn thân</p>\n<p>- Tăng sức mạnh cho lưng và chân</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 6-8 lần</p>\n<h3>3. Bench Press</h3>\n<p>- Tăng sức mạnh cho phần thân trên</p>\n<p>- Cải thiện khả năng tranh bóng</p>\n<p>- Thực hiện 3-4 hiệp, mỗi hiệp 8-10 lần</p>\n<h3>4. Box Jump</h3>\n<p>- Cải thiện sức bật</p>\n<p>- Tăng khả năng phản xạ</p>\n<p>- Thực hiện 3 hiệp, mỗi hiệp 8-10 lần</p>\n<h3>5. Medicine Ball Throws</h3>\n<p>- Tăng sức mạnh cho phần thân</p>\n<p>- Cải thiện khả năng chuyền bóng</p>\n<p>- Thực hiện 3 hiệp, mỗi hiệp 10-15 lần</p>\n<p>Nhớ khởi động kỹ trước khi tập và nghỉ ngơi hợp lý giữa các hiệp!</p>', 'news2.jpg', 2, 'Admin', 1, 1, 89, 'bóng rổ,tập luyện,sức mạnh,thể thao', '2026-05-09 14:20:00', '2026-05-09 14:20:00'),
-(3, 'Khuyến mãi lớn tháng 5 - Giảm giá đến 50%', 'khuyen-mai-thang-5-giam-gia-den-50', 'Chương trình khuyến mãi đặc biệt nhân dịp tháng 5 với nhiều ưu đãi hấp dẫn', '<p>Nhân dịp tháng 5, Sport Shop mang đến chương trình khuyến mãi đặc biệt:</p>\n<h3>🎉 ƯU ĐÃI CHÍNH:</h3>\n<ul>\n<li><strong>Giảm giá 30-50%</strong> cho các sản phẩm mùa hè</li>\n<li><strong>Mua 2 tặng 1</strong> cho các phụ kiện thể thao</li>\n<li><strong>Freeship</strong> cho đơn hàng từ 500.000 VNĐ</li>\n<li><strong>Quà tặng</strong> đặc biệt cho 100 khách hàng đầu tiên</li>\n</ul>\n<h3>📅 Thời gian áp dụng:</h3>\n<p>Từ 01/05/2026 đến 31/05/2026</p>\n<h3>🏪 Sản phẩm áp dụng:</h3>\n<ul>\n<li>Quần áo thể thao nam/nữ</li>\n<li>Giày các loại</li>\n<li>Phụ kiện (balo, túi, bình nước)</li>\n<li>Dụng cụ tập luyện tại nhà</li>\n</ul>\n<h3>🔥 Lưu ý:</h3>\n<ul>\n<li>Không áp dụng cùng các chương trình khuyến mãi khác</li>\n<li>Số lượng có hạn, chương trình có thể kết thúc sớm khi hết hàng</li>\n<li>Áp dụng cho cả mua hàng tại cửa hàng và online</li>\n</ul>\n<p>Hãy nhanh tay đến cửa hàng hoặc truy cập website để săn sale ngay hôm nay!</p>', 'news3.jpg', 4, 'Admin', 1, 1, 245, 'khuyến mãi,giảm giá,ưu đãi,tháng 5', '2026-05-08 09:15:00', '2026-05-08 09:15:00'),
-(4, 'Cầu lông - Môn thể thao phù hợp cho mọi lứa tuổi', 'cau-long-mon-the-thao-phu-hop-cho-moi-lua-tuoi', 'Lợi ích của cầu lông và lý do tại sao đây là môn thể thao lý tưởng cho cả gia đình', '<p>Cầu lông là một trong những môn thể thao được yêu thích nhất tại Việt Nam. Dưới đây là những lý do tại sao bạn nên chọn cầu lông:</p>\n<h3>💪 Lợi ích sức khỏe</h3>\n<ul>\n<li><strong>Tăng cường sức khỏe tim mạch:</strong> Chạy nhảy liên tục cải thiện tuần hoàn máu</li>\n<li><strong>Phát triển cơ bắp:</strong> Tăng cường sức mạnh cho chân, tay và phần thân</li>\n<li><strong>Cải thiện sự linh hoạt:</strong> Các động tác nhanh, dẻo dai</li>\n<li><strong>Giảm cân hiệu quả:</strong> Đốt cháy nhiều calo trong thời gian ngắn</li>\n</ul>\n<h3>🧠 Lợi ích tinh thần</h3>\n<ul>\n<li><strong>Giảm căng thẳng:</strong> Giải tỏa áp lực công việc, học tập</li>\n<li><strong>Tăng sự tập trung:</strong> Cần sự chú ý cao độ trong từng pha bóng</li>\n<li><strong>Cải thiện phản xạ:</strong> Tăng tốc độ phản ứng với các tình huống</li>\n</ul>\n<h3>👨‍👩‍👧‍👦 Phù hợp cho mọi lứa tuổi</h3>\n<ul>\n<li><strong>Trẻ em:</strong> Phát triển thể chất, tăng chiều cao</li>\n<li><strong>Thanh thiếu niên:</strong> Tăng cường sức khỏe, rèn luyện tính kỷ luật</li>\n<li><strong>Người lớn:</strong> Duy trì vóc dáng, giảm stress</li>\n<li><strong>Người cao tuổi:</strong> Tăng cường sức khỏe, phòng chống bệnh tật</li>\n</ul>\n<h3>🏸 Trang thiết bị cần thiết</h3>\n<ul>\n<li>Vợt cầu lông chất lượng</li>\n<li>Qu cầu lông tiêu chuẩn</li>\n<li>Giày chuyên dụng cho sân trong/sân ngoài</li>\n<li>Quần áo thể thao thoáng mát</li>\n</ul>\n<p>Hãy đến Sport Shop để được tư vấn và chọn mua trang thiết bị cầu lông chất lượng cao!</p>', 'news4.jpg', 1, 'Admin', 1, 0, 67, 'cầu lông,thể thao,sức khỏe,gia đình', '2026-05-07 16:45:00', '2026-05-07 16:45:00'),
-(5, 'Review chi tiết giày Nike Air Zoom Pegasus 39', 'review-chi-tiet-giay-nike-air-zoom-pegasus-39', 'Đánh giá chi tiết mẫu giày chạy bộ nổi tiếng từ Nike', '<p>Nike Air Zoom Pegasus 39 là một trong những mẫu giày chạy bộ được mong đợi nhất năm 2026. Hãy cùng tìm hiểu chi tiết:</p>\n<h3>🔥 Điểm nổi bật</h3>\n<ul>\n<li><strong>Đệm Zoom Air:</strong> Cung cấp độ đàn hồi và êm ái vượt trội</li>\n<li><strong>Cushlon foam:</strong> Đệm mềm mại, thoải mái trong mỗi bước chạy</li>\n<li><strong>Thiết kế thoáng khí:</strong> Lưới thoáng khí giúp chân luôn khô ráo</li>\n<li><strong>Đế cao su bền bỉ:</strong> Tăng độ bám và tuổi thọ sản phẩm</li>\n</ul>\n<h3>📊 Thông số kỹ thuật</h3>\n<ul>\n<li><strong>Trọng lượng:</strong> 285g (size nam), 255g (size nữ)</li>\n<li><strong>Drop:</strong> 10mm</li>\n<li><strong>Độ dày đệm:</strong> 33mm (gót), 23mm (mũi)</li>\n<li><strong>Phù hợp:</strong> Chạy bộ hàng ngày, tập luyện đa dạng</li>\n</ul>\n<h3>✅ Ưu điểm</h3>\n<ul>\n<li>Êm ái và thoải mái ngay từ lần đầu mang</li>\n<li>Độ bền cao, sử dụng được lâu dài</li>\n<li>Thiết kế đẹp mắt, nhiều màu sắc lựa chọn</li>\n<li>Phù hợp với nhiều loại chân và phong cách chạy</li>\n</ul>\n<h3>⚠️ Lưu ý</h3>\n<ul>\n<li>Giá thành khá cao so với các dòng khác</li>\n<li>Có thể hơi nặng so với các mẫu giày racing</li>\n<li>Không phù hợp cho các cuộc thi chuyên nghiệp</li>\n</ul>\n<h3>🎯 Đối tượng phù hợp</h3>\n<p>Giày Pegasus 39 lý tưởng cho:</p>\n<ul>\n<li>Người mới bắt đầu chạy bộ</li>\n<li>Vận động viên chạy bộ hàng ngày (5-21km)</li>\n<li>Người cần giày đa năng cho nhiều loại hình tập luyện</li>\n</ul>\n<p>Với mức giá khoảng 3.500.000 VNĐ, đây là sự đầu tư xứng đáng cho những ai đam mê chạy bộ!</p>', 'news5.jpg', 3, 'Admin', 1, 0, 156, 'review,Nike,giày chạy bộ,Pegasus', '2026-05-06 11:30:00', '2026-05-06 11:30:00');
-
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

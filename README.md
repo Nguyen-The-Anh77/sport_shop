@@ -10,30 +10,57 @@
 ## Nhóm 3
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="public/img/Nguyen_The_Anh.jpg" alt="Nguyễn Thế Anh" width="150" style="border-radius: 50%;">
-        <h3>Nguyễn Thế Anh</h3>
-        <p>Team Leader</p>
-      </td>
-      <td align="center">
-        <img src="public/img/Phan_Anh_Duc.jpg" alt="Phan Anh Đức" width="150" style="border-radius: 50%;">
-        <h3>Phan Anh Đức</h3>
-        <p>Frontend Developer</p>
-      </td>
-      <td align="center">
-        <img src="public/img/Pham_Quoc_Dung.jpg" alt="Phạm Quốc Dũng" width="150" style="border-radius: 50%;">
-        <h3>Phạm Quốc Dũng</h3>
-        <p>Database Admin</p>
-      </td>
-      <td align="center">
-        <img src="public/img/Nguyen_Duc_Long.jpg" alt="Nguyễn Đức Long" width="150" style="border-radius: 50%;">
-        <h3>Nguyễn Đức Long</h3>
-        <p>Backend Developer</p>
-      </td>
-    </tr>
-  </table>
+
+## 👨‍💻 Team Members
+
+<table>
+  <tr>
+    <td align="center" width="220">
+      <img src="public/img/Nguyen_The_Anh.jpg" 
+           alt="Nguyễn Thế Anh" 
+           width="150"
+           style="border-radius:50%;">
+      <br><br>
+      <b>Nguyễn Thế Anh</b>
+      <br>
+      <sub>Team Leader</sub>
+    </td>
+
+    <td align="center" width="220">
+      <img src="public/img/Phan_Anh_Duc.jpg" 
+           alt="Phan Anh Đức" 
+           width="150"
+           style="border-radius:50%;">
+      <br><br>
+      <b>Phan Anh Đức</b>
+      <br>
+      <sub>Frontend Developer</sub>
+    </td>
+
+    <td align="center" width="220">
+      <img src="public/img/Pham_Quoc_Dung.jpg" 
+           alt="Phạm Quốc Dũng" 
+           width="150"
+           style="border-radius:50%;">
+      <br><br>
+      <b>Phạm Quốc Dũng</b>
+      <br>
+      <sub>Database Admin</sub>
+    </td>
+
+    <td align="center" width="220">
+      <img src="public/img/Nguyen_Duc_Long.jpg" 
+           alt="Nguyễn Đức Long" 
+           width="150"
+           style="border-radius:50%;">
+      <br><br>
+      <b>Nguyễn Đức Long</b>
+      <br>
+      <sub>Backend Developer</sub>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 ---

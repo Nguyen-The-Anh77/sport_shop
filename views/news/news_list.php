@@ -6,7 +6,7 @@
 <div class="breadcrumb-area pt-205 pb-210" style="background-image: url('public/img/breadcrumb/breadcrumb.jpg');">
     <div class="container">
         <div class="breadcrumb-content text-center">
-            <h2>Tin Tức Thể Thao</h2>
+            <h2>Tin Tức Thể </h2>
             <ul>
                 <li><a href="?mod=page&act=home">Trang chủ</a></li>
                 <li>Tin tức</li>

@@ -35,7 +35,7 @@
                     <h3 class="card-title">Chỉnh sửa thông tin tin tức</h3>
                 </div>
                 <div class="card-body">
-                    <form action="?mod=news&act=update" method="POST" enctype="multipart/form-data">
+                    <form action="?mod=news&act=update" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
                         <input type="hidden" name="id" value="<?php echo $news['id']; ?>">
                         
                         <div class="row">

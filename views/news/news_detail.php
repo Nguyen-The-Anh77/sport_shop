@@ -1,4 +1,6 @@
-<?php require_once('views/include/head.php'); ?>
+<?php 
+require_once('views/include/head.php'); 
+?>
 <link rel="stylesheet" href="public/news-styles.css">
 <?php require_once('views/include/header.php'); ?>
 
@@ -32,7 +34,9 @@
                             <?php endif; ?>
                         </div>
                         <div class="blog-details-content">
-                            <h3><?php echo $news['title']; ?></h3>
+                            <div class="blog-details-header">
+                                <h3><?php echo htmlspecialchars($news['title']); ?></h3>
+                            </div>
                             <div class="blog-meta">
                                 <ul>
                                     <li><i class="mdi mdi-account"></i> Admin</li>

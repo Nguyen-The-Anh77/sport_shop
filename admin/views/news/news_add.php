@@ -35,7 +35,7 @@
                     <h3 class="card-title">Thông tin tin tức</h3>
                 </div>
                 <div class="card-body">
-                    <form action="?mod=news&act=store" method="POST" enctype="multipart/form-data">
+                    <form action="?mod=news&act=store" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="form-group">
