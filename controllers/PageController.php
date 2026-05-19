@@ -13,6 +13,10 @@
 			$data_hot = $this->page_model->Hot(8,0);
 			$data_hots = array();
 			$data_hots = $this->page_model->Sale(8,0);
+			$data_slider = array();
+			require_once('models/Slider.php');
+			$slider_model = new Slider();
+			$data_slider = $slider_model->getAllActive();
 			require_once('views/page/home.php');
 		}
 

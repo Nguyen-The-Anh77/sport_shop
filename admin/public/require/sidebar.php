@@ -66,4 +66,12 @@
         </a>
       </li>
 
+      <!-- Nav Item - Slider -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="?mod=slider&act=list">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Slider</span>
+        </a>
+      </li>
+
     </ul>
