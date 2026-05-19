@@ -97,7 +97,7 @@
             
             <!-- Sidebar -->
             <div class="col-lg-4">
-                <!-- Latest News Widget -->
+                 
                 <div class="sidebar-widget mb-30">
                     <h3 class="sidebar-title">Tin tức mới nhất</h3>
                     <div class="sidebar-content">
