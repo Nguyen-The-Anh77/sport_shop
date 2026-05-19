@@ -26,8 +26,8 @@
         <link rel="stylesheet" href="public/css/jquery-ui.min.css">
 		<!-- meanmenu css -->
         <link rel="stylesheet" href="public/css/meanmenu.min.css">
-		<!-- nivo.slider css -->
-        <link rel="stylesheet" href="public/css/nivo-slider.css">
+		<!-- slider css -->
+        <link rel="stylesheet" href="public/css/slider.css">
 		<!-- owl.carousel css -->
         <link rel="stylesheet" href="public/css/owl.carousel.css">
 		<!-- style css -->

@@ -189,6 +189,34 @@
 					break;
 			}
 			break;
+		case 'slider':
+		    checkAuth();
+			require_once('controllers/SliderController.php');
+			$controller_obj = new SliderController();
+			switch ($act) {
+				case 'list':
+					$controller_obj->list();
+					break;
+				case 'add':
+					$controller_obj->add();
+					break;
+				case 'store':
+					$controller_obj->store();
+					break;
+				case 'edit':
+					$controller_obj->edit();
+					break;
+				case 'update':
+					$controller_obj->update();
+					break;
+				case 'delete':
+					$controller_obj->delete();
+					break;		
+				default:
+					require_once('views/page/404.php');
+					break;
+			}
+			break;
 		default:
 			require_once('views/page/404.php');
 			break;

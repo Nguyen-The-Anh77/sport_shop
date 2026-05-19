@@ -10,9 +10,36 @@
         <!-- header section end -->
         
         <!-- slider-section-start -->
-		<div class="slider-container">
-			<img src="public/img/slider/11.jpg" alt="main slider" title="#htmlcaption"/>
+		<?php if(!empty($data_slider)): ?>
+		<div id="mainSlider" class="slider-container">
+			<div class="slider-wrapper">
+				<?php foreach($data_slider as $slider): ?>
+				<div class="slider-item">
+					<?php if($slider['link']): ?>
+					<a href="<?php echo $slider['link']; ?>">
+					<?php endif; ?>
+					<img src="<?php echo $slider['image']; ?>" alt="<?php echo $slider['title']; ?>">
+					<div class="slider-caption">
+						<h2><?php echo $slider['title']; ?></h2>
+						<?php if($slider['description']): ?>
+						<p><?php echo $slider['description']; ?></p>
+						<?php endif; ?>
+					</div>
+					<?php if($slider['link']): ?>
+					</a>
+					<?php endif; ?>
+				</div>
+				<?php endforeach; ?>
+			</div>
+			<div class="slider-dots">
+				<?php foreach($data_slider as $key => $slider): ?>
+				<span class="dot <?php echo $key == 0 ? 'active' : ''; ?>" data-index="<?php echo $key; ?>"></span>
+				<?php endforeach; ?>
+			</div>
+			<button class="slider-prev">&#10094;</button>
+			<button class="slider-next">&#10095;</button>
 		</div>
+		<?php endif; ?>
 		<!-- slider section end -->
         <!-- featured-products section start -->
 		<section class="pages products-page section-padding text-center extra-padding-bottom">
