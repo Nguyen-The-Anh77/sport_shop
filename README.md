@@ -10,57 +10,43 @@
 ## Nhóm 3
 
 <div align="center">
+  <table>
+<tr>
 
-## 👨‍💻 Team Members
+<td align="center">
+<img src="./public/img/Nguyen_The_Anh.jpg" width="150px;" alt="Nguyễn Thế Anh"/>
+<br />
+<b>Nguyễn Thế Anh</b>
+<br />
+<sub>Team Leader</sub>
+</td>
 
-<table>
-  <tr>
-    <td align="center" width="220">
-      <img src="public/img/Nguyen_The_Anh.jpg" 
-           alt="Nguyễn Thế Anh" 
-           width="150"
-           style="border-radius:50%;">
-      <br><br>
-      <b>Nguyễn Thế Anh</b>
-      <br>
-      <sub>Team Leader</sub>
-    </td>
+<td align="center">
+<img src="./public/img/Phan_Anh_Duc.jpg" width="150px;" alt="Phan Anh Đức"/>
+<br />
+<b>Phan Anh Đức</b>
+<br />
+<sub>Frontend Developer</sub>
+</td>
 
-    <td align="center" width="220">
-      <img src="public/img/Phan_Anh_Duc.jpg" 
-           alt="Phan Anh Đức" 
-           width="150"
-           style="border-radius:50%;">
-      <br><br>
-      <b>Phan Anh Đức</b>
-      <br>
-      <sub>Frontend Developer</sub>
-    </td>
+<td align="center">
+<img src="./public/img/Pham_Quoc_Dung.jpg" width="150px;" alt="Phạm Quốc Dũng"/>
+<br />
+<b>Phạm Quốc Dũng</b>
+<br />
+<sub>Database Admin</sub>
+</td>
 
-    <td align="center" width="220">
-      <img src="public/img/Pham_Quoc_Dung.jpg" 
-           alt="Phạm Quốc Dũng" 
-           width="150"
-           style="border-radius:50%;">
-      <br><br>
-      <b>Phạm Quốc Dũng</b>
-      <br>
-      <sub>Database Admin</sub>
-    </td>
+<td align="center">
+<img src="./public/img/Nguyen_Duc_Long.jpg" width="150px;" alt="Nguyễn Đức Long"/>
+<br />
+<b>Nguyễn Đức Long</b>
+<br />
+<sub>Backend Developer</sub>
+</td>
 
-    <td align="center" width="220">
-      <img src="public/img/Nguyen_Duc_Long.jpg" 
-           alt="Nguyễn Đức Long" 
-           width="150"
-           style="border-radius:50%;">
-      <br><br>
-      <b>Nguyễn Đức Long</b>
-      <br>
-      <sub>Backend Developer</sub>
-    </td>
-  </tr>
+</tr>
 </table>
-
 </div>
 
 ---
