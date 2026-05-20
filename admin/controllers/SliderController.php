@@ -148,7 +148,7 @@
         }
 
         private function uploadImage($file){
-            $allowed_types = array('jpg', 'jpeg', 'png', 'gif');
+            $allowed_types = array('jpg', 'jpeg', 'png', 'gif', 'jfif','webp');
             $max_size = 5 * 1024 * 1024; // 5MB
             
             $filename = $file['name'];
@@ -157,7 +157,7 @@
             $filetype = pathinfo($filename, PATHINFO_EXTENSION);
             
             if(!in_array(strtolower($filetype), $allowed_types)){
-                $_SESSION['error'] = 'Chỉ chấp nhận file ảnh (jpg, jpeg, png, gif)';
+                $_SESSION['error'] = 'Chỉ chấp nhận file ảnh (jpg, jpeg, png, gif, jfif, webp)';
                 return '';
             }
             
