@@ -1,81 +1,90 @@
-<header class="header-one">
-			<div class="container-fluid text-center">
-				<div class="row">
-					<div class="col-sm-2">
-						<div class="logo">
-							<a href="?mod=page&act=home"><img src="public/img/logo.jpg" alt="Sellshop" /></a>
-						</div>
-					</div>
-					<div class="col-sm-8">
-						<div class="header-middel">
-							<div class="middel-top clearfix">
-								<div class="left floatleft">
-									<p><i class="mdi mdi-clock"></i> Mon-Fri : 09:00-19:00</p>
-								</div>
-								<div class="center floatleft">
-									<form action="?mod=page&act=search" method="POST">
-										<button type="submit"><i class="mdi mdi-magnify"></i></button>
-										<input type="text" placeholder="Search within these results..." name = "data"/>
-									</form>
-								</div>
-								<div class="right floatleft">
-									<ul class="clearfix">
-										<li><a href="?mod=page&act=home"><i class="mdi mdi-account"></i></a>
-											<h5><?php if(isset($_SESSION['customer']['contactLastName'])) echo $_SESSION['customer']['contactLastName']; 
-											else if(isset($_SESSION['admin']['lastName'])) echo $_SESSION['admin']['lastName'];?></h5>
-											<ul> 
-												<?php if(isset($_SESSION['customer']) or isset($_SESSION['admin'])) { ?>												
-												<li><a href="?mod=login&act=logout">Logout</a></li>
-												<li><a href="?mod=page&act=account">My account</a></li>
-											    <?php }else{ ?>
-												<li><a href="?mod=login&act=login">Login</a></li>
-											    <?php } ?>	
-											    <li><?php if(isset($_SESSION['admin']['lastName'])){ ?>
-												        <a href="admin/?mod=page&act=dashboard">Admin</a>
-												      </a>
-												<?php } ?>
-												</li>
-											</ul>
-										</li>
-										<li><a href="#"><i class="mdi mdi-settings"></i></a>
-										<?php if(isset($_SESSION['customer']) or isset($_SESSION['admin'])) { ?>
-											<ul>
-												<li><a href="?mod=page&act=account">My account</a></li>
-												<li><a href="?mod=cart&act=list">My cart</a></li>
-											</ul>
-										<?php } ?>	
-										</li>
-									</ul>
-								</div>
+<header class="modern-header">
+			<div class="container-fluid">
+				<div class="modern-header-inner">
+					<div class="modern-brand">
+						<a href="?mod=page&act=home">
+							<img src="public/img/logo.jpg" alt="Sport Shop" />
+							<div class="modern-brand-text">
+								<span class="modern-brand-title">Sport Shop</span>
+								<span class="modern-brand-subtitle">Gear up for every match</span>
 							</div>
-							<div class="mainmenu">
-								<nav>
-									<ul>
-										<li><a href="?mod=page&act=home">Home</a></li>
-										<li><a href="?mod=page&act=about">About</a></li>
-										<li><a href="?mod=product&line=1&type=Soccer">Soccer</a></li>
-										<li><a href="?mod=product&line=2&type=Basketball">Basketball</a></li>
-										<li><a href="?mod=product&line=3&type=Badminton">Badminton</a></li>
-										<!-- <li><a href="?mod=product&line=4&type=Volleyball">Volleyball</a></li> -->
-										<li><a href="?mod=news&act=list">Tin Tức</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
+						</a>
 					</div>
-					<div class="col-sm-2">
-						<div class="cart-itmes">
-							<a class="cart-itme-a" href="?mod=cart&act=list">
+
+					<div class="modern-search">
+						<form action="?mod=page&act=search" method="POST">
+							<input type="text" placeholder="Tìm kiếm sản phẩm..." name="data" />
+							<button type="submit" aria-label="Search">
+								<i class="mdi mdi-magnify"></i>
+							</button>
+						</form>
+					</div>
+
+					<nav class="modern-nav">
+						<a class="modern-nav-link is-active" href="?mod=page&act=home">Home</a>
+						<a class="modern-nav-link" href="?mod=page&act=about">About</a>
+						<a class="modern-nav-link" href="?mod=product&line=1&type=Soccer">Soccer</a>
+						<a class="modern-nav-link" href="?mod=product&line=2&type=Basketball">Basketball</a>
+						<a class="modern-nav-link" href="?mod=product&line=3&type=Badminton">Badminton</a>
+						<a class="modern-nav-link" href="?mod=news&act=list">Tin Tức</a>
+					</nav>
+
+					<div class="modern-actions">
+						<a class="modern-action-card" href="?mod=wishlist&act=list">
+							<div class="modern-action-icon">
+								<i class="mdi mdi-heart"></i>
+							</div>
+							<div class="modern-action-label">
+								<strong>Yêu thích</strong>
+								<span><?php echo count($_SESSION['wishlist'] ?? []); ?> sản phẩm</span>
+							</div>
+						</a>
+
+						<a class="modern-action-card" href="?mod=cart&act=list">
+							<div class="modern-action-icon">
 								<i class="mdi mdi-cart"></i>
-								<?php if(isset($_SESSION['cart'])) echo count($_SESSION['cart']); else echo '0';?> items :  <strong><?php if(isset($_SESSION['sum'])) echo number_format($_SESSION['sum']); else echo '0';?> VND</strong>
-							</a>
-							<?php if(isset($_SESSION['customer']) or isset($_SESSION['admin'])) { ?>
-							<div class="cartdrop">
-								<a class="out-menu" href="?mod=cart&act=list">go to cart</a>
-								<!-- <a class="out-menu" href="views/page/checkout.php">Check out</a> -->
 							</div>
-						    <?php }?>
+							<div class="modern-action-label">
+								<strong>
+									<?php if(isset($_SESSION['cart'])) echo count($_SESSION['cart']); else echo '0';?> items
+								</strong>
+								<span><?php if(isset($_SESSION['sum'])) echo number_format($_SESSION['sum']); else echo '0';?> VND</span>
+							</div>
+						</a>
+
+						<?php if(isset($_SESSION['customer']) or isset($_SESSION['admin'])) { ?>
+						<div class="modern-user-menu">
+							<a href="#" class="modern-action-card modern-user-pill">
+								<div class="modern-action-icon">
+									<i class="mdi mdi-account"></i>
+								</div>
+								<div class="modern-action-label">
+									<strong>Xin chào</strong>
+									<span class="modern-user-name">
+										<?php if(isset($_SESSION['customer']['contactLastName'])) echo $_SESSION['customer']['contactLastName']; else if(isset($_SESSION['admin']['lastName'])) echo $_SESSION['admin']['lastName']; ?>
+									</span>
+								</div>
+							</a>
+							<div class="modern-user-dropdown">
+								<a href="?mod=page&act=account">My account</a>
+								<a href="?mod=cart&act=list">My cart</a>
+								<?php if(isset($_SESSION['admin']['lastName'])) { ?>
+								<a href="admin/?mod=page&act=dashboard">Admin</a>
+								<?php } ?>
+								<a href="?mod=login&act=logout">Logout</a>
+							</div>
 						</div>
+						<?php } else { ?>
+						<a class="modern-action-card" href="?mod=login&act=login">
+							<div class="modern-action-icon">
+								<i class="mdi mdi-login"></i>
+							</div>
+							<div class="modern-action-label">
+								<strong>Đăng nhập</strong>
+								<span>Truy cập tài khoản</span>
+							</div>
+						</a>
+						<?php } ?>
 					</div>
 				</div>
 			</div>
