@@ -2,6 +2,12 @@
     error_reporting(E_ALL);
 ini_set('display_errors', 1); 
     session_start();
+    
+    // Initialize wishlist session if not set
+    if (!isset($_SESSION['wishlist'])) {
+        $_SESSION['wishlist'] = array();
+    }
+    
 	$mod = (isset($_GET['mod'])?$_GET['mod']:'page');
 	$act = (isset($_GET['act'])?$_GET['act']:(isset($_POST['act'])?$_POST['act']:'list'));
 
@@ -106,6 +112,27 @@ ini_set('display_errors', 1);
 					break;
 				case 'latest':
 					$controller_obj->latest();
+					break;
+				default:
+					require_once('views/page/error-404.php');
+					break;
+			}
+			break;
+		case 'wishlist':
+			require_once('controllers/WishlistController.php');
+			$controller_obj = new WishlistController();
+			switch ($act) {
+				case 'list':
+					$controller_obj->list();
+					break;
+				case 'add':
+					$controller_obj->add();
+					break;
+				case 'delete':
+					$controller_obj->delete();
+					break;
+				case 'check':
+					$controller_obj->check();
 					break;
 				default:
 					require_once('views/page/error-404.php');

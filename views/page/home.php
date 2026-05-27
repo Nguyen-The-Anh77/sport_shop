@@ -65,9 +65,9 @@
 												</div>
 												<a href="#"><img src=<?= $value['image'] ?> alt="Product Title" width="270px" height="340px"/></a>
 												<div class="actions-btn">
-													<a href="?mod=cart&act=add&id=<?= $value['productCode'] ?>"><i class="mdi mdi-cart"></i></a>
+													<a href="javascript:void(0)" onclick="addToCart('<?= $value['productCode'] ?>', this)" class="add-to-cart-btn"><i class="mdi mdi-cart"></i></a>
 													<a href="?mod=product&act=detail&id=<?= $value['productCode'] ?>&views=<?= $value['views'] ?>" data-toggle="modal" data-target="#quick-view"><i class="mdi mdi-eye"></i></a>
-													<a href="#"><i class="mdi mdi-heart"></i></a>
+													<a href="javascript:void(0)" onclick="addToWishlist('<?= $value['productCode'] ?>', this)" class="add-to-wishlist-btn"><i class="mdi mdi-heart"></i></a>
 												</div>
 											</div>
 											<div class="product-dsc">
@@ -106,9 +106,9 @@
 												</div>
                                                 <a href="#"><img src=<?= $value['image'] ?> alt="Product Title" width="270px" height="340px"/></a>
 												<div class="actions-btn">
-													<a href="?mod=cart&act=add&id=<?= $value['productCode'] ?>"><i class="mdi mdi-cart"></i></a>
+													<a href="javascript:void(0)" onclick="addToCart('<?= $value['productCode'] ?>', this)" class="add-to-cart-btn"><i class="mdi mdi-cart"></i></a>
 													<a href="?mod=product&act=detail&id=<?= $value['productCode'] ?>&views=<?= $value['views'] ?>" data-toggle="modal" data-target="#quick-view"><i class="mdi mdi-eye"></i></a>
-													<a href="#"><i class="mdi mdi-heart"></i></a>
+													<a href="javascript:void(0)" onclick="addToWishlist('<?= $value['productCode'] ?>', this)" class="add-to-wishlist-btn"><i class="mdi mdi-heart"></i></a>
 												</div>
 											</div>
 											<div class="product-dsc">

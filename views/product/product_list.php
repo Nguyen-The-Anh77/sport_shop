@@ -60,13 +60,13 @@
                                                          style="width: 100%; height: 340px; object-fit: cover;">
                                                 </a>
                                                 <div class="actions-btn">
-                                                    <a href="?mod=cart&act=add&id=<?= $product['productCode'] ?>">
+                                                    <a href="javascript:void(0)" onclick="addToCart('<?= $product['productCode'] ?>', this)" class="add-to-cart-btn">
                                                         <i class="mdi mdi-cart"></i>
                                                     </a>
                                                     <a href="?mod=product&act=detail&id=<?= $product['productCode'] ?>">
                                                         <i class="mdi mdi-eye"></i>
                                                     </a>
-                                                    <a href="#"><i class="mdi mdi-heart"></i></a>
+                                                    <a href="javascript:void(0)" onclick="addToWishlist('<?= $product['productCode'] ?>', this)" class="add-to-wishlist-btn"><i class="mdi mdi-heart"></i></a>
                                                 </div>
                                             </div>
                                             <div class="product-dsc">

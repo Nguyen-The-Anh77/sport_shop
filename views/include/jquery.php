@@ -17,5 +17,7 @@
         <script src="public/js/plugins.js"></script>
 		<!-- slider js -->
         <script src="public/js/slider.js"></script>
+		<!-- cart-wishlist js -->
+        <script src="public/js/cart-wishlist.js"></script>
 		<!-- main js -->
         <script src="public/js/main.js"></script>

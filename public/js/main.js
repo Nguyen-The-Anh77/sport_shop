@@ -28,17 +28,23 @@
 /*----------------------------
  nivoSlider active
 ------------------------------ */
-	$('#mainSlider').nivoSlider({
-		directionNav: true,
-		animSpeed: 500,
-		effect: 'random',
-		slices: 18,
-		pauseTime: 10000,
-		pauseOnHover: false,
-		controlNav: true,
-		prevText: '<i class="mdi mdi-chevron-left"></i>',
-		nextText: '<i class="mdi mdi-chevron-right"></i>'
-	});
+	try {
+		if ($('#mainSlider').length > 0 && $.fn.nivoSlider) {
+			$('#mainSlider').nivoSlider({
+				directionNav: true,
+				animSpeed: 500,
+				effect: 'random',
+				slices: 18,
+				pauseTime: 10000,
+				pauseOnHover: false,
+				controlNav: true,
+				prevText: '<i class="mdi mdi-chevron-left"></i>',
+				nextText: '<i class="mdi mdi-chevron-right"></i>'
+			});
+		}
+	} catch (e) {
+		console.log('nivoSlider error:', e);
+	}
 /*----------------------------
  plus-minus-button
 ------------------------------ */

@@ -44,6 +44,61 @@ a:active, a:hover {
 }
 .animated {animation-duration: 1.5s;}
 i{font-size:16px;}
+
+/* Heart icon active state */
+.heart-active {
+	color: #fe5858 !important;
+}
+
+.actions-btn .heart-active {
+	color: #fe5858 !important;
+}
+
+.actions-btn a .heart-active {
+	color: #fe5858 !important;
+}
+
+/* Toast notification styles */
+.toast {
+	position: fixed;
+	top: 100px;
+	right: 20px;
+	background: #4CAF50;
+	color: #fff;
+	padding: 15px 25px;
+	border-radius: 5px;
+	z-index: 999999 !important;
+	display: none;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	font-size: 14px;
+	font-weight: 500;
+	min-width: 200px;
+}
+
+.toast.show {
+	display: block;
+	animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.toast-success {
+	background: #4CAF50;
+}
+
+.toast-error {
+	background: #f44336;
+}
+
 p{
 	color:#666666;
 	font-size:13px;

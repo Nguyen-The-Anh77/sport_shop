@@ -37,8 +37,27 @@ class CartController {
 
         // Kiểm tra xem sản phẩm đã có trong giỏ hàng chưa
         if (isset($_SESSION['cart'][$id])) {
-            // Nếu đã có, tăng số lượng lên 1
-            $_SESSION['cart'][$id]['SoLuong']++;
+            // Nếu đã có, kiểm tra nếu là AJAX request
+            if (isset($_GET['ajax']) && $_GET['ajax'] == 1) {
+                // Tính tổng tiền giỏ hàng
+                $total = 0;
+                foreach ($_SESSION['cart'] as $item) {
+                    $price = $item['buyPrice'] * (100 - ($item['sales_percent'] ?? 0)) / 100;
+                    $total += $price * $item['SoLuong'];
+                }
+                
+                header('Content-Type: application/json');
+                echo json_encode([
+                    'success' => false,
+                    'message' => 'Sản phẩm đã có trong giỏ hàng!',
+                    'cart_count' => count($_SESSION['cart']),
+                    'cart_total' => number_format($total)
+                ]);
+                exit;
+            } else {
+                // Nếu không phải AJAX, tăng số lượng lên 1
+                $_SESSION['cart'][$id]['SoLuong']++;
+            }
         } else {
             // Nếu chưa có trong giỏ hàng
             // Thêm trường SoLuong = 1 vào thông tin sản phẩm
@@ -48,7 +67,25 @@ class CartController {
             $_SESSION['cart'][$id] = $product;
         }
 
-        // Chuyển hướng về trang xem giỏ hàng
+        // Kiểm tra nếu là request AJAX
+        if (isset($_GET['ajax']) && $_GET['ajax'] == 1) {
+            // Tính tổng tiền giỏ hàng
+            $total = 0;
+            foreach ($_SESSION['cart'] as $item) {
+                $price = $item['buyPrice'] * (100 - ($item['sales_percent'] ?? 0)) / 100;
+                $total += $price * $item['SoLuong'];
+            }
+            
+            header('Content-Type: application/json');
+            echo json_encode([
+                'success' => true,
+                'cart_count' => count($_SESSION['cart']),
+                'cart_total' => number_format($total)
+            ]);
+            exit;
+        }
+        
+        // Chuyển hướng về trang xem giỏ hàng (cho request thường)
         header('Location: ?mod=cart&act=list');
     }
     public function delete(){
