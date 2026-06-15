@@ -12,7 +12,7 @@ require_once(__DIR__ . '/../include/header.php');
                 <h1>Rất tiếc!</h1>
                 <h2>404 Không tìm thấy trang</h2>
                 <div class="error-details">
-                    Trang bạn đang tìm kiếm có thể đã bị xóa hoặc tạm thời không khả dụng.
+                   Không tìm thấy trang yêu cầu. Vui lòng kiểm tra lại đường dẫn hoặc quay lại trang chủ.
                 </div>
                 <div class="error-actions mt-4">
                     <a href="?mod=page&act=home" class="btn btn-primary btn-lg">
