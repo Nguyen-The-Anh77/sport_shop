@@ -41,9 +41,12 @@
                                 <div class="about-author">
                                     <h3>Giới thiệu đôi chút về sản phẩm này<br /> (cửa hàng thể thao)</h3>
                                 </div>
-                                <p style="font-size: 14px">Mình là người khá nhút nhát, thích xem và chơi thể thao đặc biệt là bóng đá. Bởi vì sở thích đó mà mình đã lấy đề tài cho Team là Web bán quần áo thể thao thể thao. Vì trước đây mình đã làm trước một chút nên bài lần này mình đã tận dụng và phát triển thêm về cơ sở dữ liệu, chức năng và tối ưu câu truy vấn cơ sở dữ liệu. </p>
+                                <p style="font-size: 14px">Mình là người khá trầm tính và luôn thích tìm tòi, học hỏi những kiến thức mới trong lĩnh vực công nghệ thông tin. Khi thực hiện đồ án, mình cùng các thành viên trong nhóm đã lựa chọn xây dựng website bán quần áo thể thao, một lĩnh vực vừa gần gũi với nhu cầu thực tế vừa phù hợp với định hướng của nhóm. Trong quá trình phát triển dự án, mình tham gia thiết kế cơ sở dữ liệu, xây dựng các chức năng chính và tối ưu hóa hệ thống để nâng cao hiệu năng hoạt động. Dự án không chỉ giúp mình vận dụng những kiến thức đã học mà còn rèn luyện kỹ năng làm việc nhóm, tư duy giải quyết vấn đề và kinh nghiệm triển khai một sản phẩm hoàn chỉnh.</p>
                                 
-                                <p style="font-size: 14px">Trang Web này mình dùng các kiến thức PHP đã được học để load dữ liệu và xử lý yêu cầu của người dùng. Do vẫn chưa có nhiều kiến thức nên chưa có nhiều chức năng và còn nhiều thiếu sót nhưng đó cũng là thành quả mà Team mình đã cố gắng trong kì 1 năm 3 này. Cảm ơn bạn đã đọc !!!</p>
+                                <p style="font-size: 14px">Website này là sản phẩm được nhóm mình xây dựng dựa trên những kiến thức PHP đã được học trên giảng đường. Trong quá trình thực hiện, nhóm đã cố gắng áp dụng các kiến thức về lập trình web, cơ sở dữ liệu và xử lý dữ liệu để tạo ra một hệ thống hoạt động ổn định. Dù vẫn còn nhiều thiếu sót và chưa thể triển khai đầy đủ các tính năng mong muốn, đây vẫn là thành quả của quá trình học tập, nghiên cứu và làm việc nghiêm túc của cả nhóm trong học kỳ 1 năm 3.
+
+Cảm ơn thầy cô và các bạn đã quan tâm theo dõi sản phẩm của nhóm!
+</p>
                             </div>
                         </div>
                     </div>
