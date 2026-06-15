@@ -55,7 +55,7 @@
 									</form>
 								</div>
 								<div class="submit-text coupon">
-							<a href="admin/?mod=login&act=login">Đăng nhập quản trị</a>
+							<a href="admin/?mod=login&act=login">Đăng nhập quản lý</a>
 						</div>
 							</div>
 						</div>
