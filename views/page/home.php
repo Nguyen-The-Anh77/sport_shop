@@ -56,7 +56,11 @@
 						<li>
 							<div class="row text-center">
 								<div class="grid-content">
-								<?php foreach ($data_hot as $value) { ?>
+								<?php
+									$wishlist = $_SESSION['wishlist'] ?? [];
+									foreach ($data_hot as $value) {
+										$isFavorite = isset($wishlist[$value['productCode']]);
+									?>
 									<div class="col-xs-12 col-sm-6 col-md-3">
 										<div class="single-product">
 											<div class="product-img">
@@ -67,7 +71,15 @@
 												<div class="actions-btn">
 													<a href="?mod=cart&act=add&id=<?= $value['productCode'] ?>"><i class="mdi mdi-cart"></i></a>
 													<a href="?mod=product&act=detail&id=<?= $value['productCode'] ?>&views=<?= $value['views'] ?>" data-toggle="modal" data-target="#quick-view"><i class="mdi mdi-eye"></i></a>
-													<a href="#"><i class="mdi mdi-heart"></i></a>
+													<?php if ($isFavorite): ?>
+<a href="?mod=wishlist&act=remove&id=<?= $value['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link is-favorite" title="B? kh?i y?u th?ch">
+<i class="mdi mdi-heart"></i>
+</a>
+<?php else: ?>
+<a href="?mod=wishlist&act=add&id=<?= $value['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link" title="Th?m v?o y?u th?ch">
+<i class="mdi mdi-heart-outline"></i>
+</a>
+<?php endif; ?>
 												</div>
 											</div>
 											<div class="product-dsc">
@@ -108,7 +120,15 @@
 												<div class="actions-btn">
 													<a href="?mod=cart&act=add&id=<?= $value['productCode'] ?>"><i class="mdi mdi-cart"></i></a>
 													<a href="?mod=product&act=detail&id=<?= $value['productCode'] ?>&views=<?= $value['views'] ?>" data-toggle="modal" data-target="#quick-view"><i class="mdi mdi-eye"></i></a>
-													<a href="#"><i class="mdi mdi-heart"></i></a>
+													<?php if ($isFavorite): ?>
+<a href="?mod=wishlist&act=remove&id=<?= $value['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link is-favorite" title="B? kh?i y?u th?ch">
+<i class="mdi mdi-heart"></i>
+</a>
+<?php else: ?>
+<a href="?mod=wishlist&act=add&id=<?= $value['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link" title="Th?m v?o y?u th?ch">
+<i class="mdi mdi-heart-outline"></i>
+</a>
+<?php endif; ?>
 												</div>
 											</div>
 											<div class="product-dsc">

@@ -59,7 +59,9 @@ require_once('views/include/head.php');
                                         ?>
                                             <li><a href="#"><?php echo trim($tag); ?></a></li>
                                         <?php endforeach; ?>
+                                        
                                     </ul>
+                                    
                                 </div>
                             <?php endif; ?>
                             
@@ -88,7 +90,7 @@ require_once('views/include/head.php');
                                                     <?php if($related['image']): ?>
                                                         <img src="public/img/news/<?php echo $related['image']; ?>" alt="<?php echo $related['title']; ?>">
                                                     <?php else: ?>
-                                                        <img src="public/img/blog/1.jpg" alt="<?php echo $related['title']; ?>">
+                                                    <img src="public/img/blog/1.jpg" alt="<?php echo $related['title']; ?>">
                                                     <?php endif; ?>
                                                 </a>
                                             </div>
@@ -127,7 +129,7 @@ require_once('views/include/head.php');
                                         <?php if($latest['image']): ?>
                                             <img src="public/img/news/<?php echo $latest['image']; ?>" alt="<?php echo $latest['title']; ?>">
                                         <?php else: ?>
-                                            <img src="public/img/blog/1.jpg" alt="<?php echo $latest['title']; ?>">
+                                            <img src="public/img/blog/1.jpg" alt="<?php echo $related['title']; ?>">
                                         <?php endif; ?>
                                     </a>
                                 </div>
