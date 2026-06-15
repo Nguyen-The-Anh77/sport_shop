@@ -44,7 +44,11 @@
                             </div>
                             <div class="row">
                                 <div class="grid-content">
-                                    <?php foreach ($data as $product): ?>
+                                    <?php
+                                        $wishlist = $_SESSION['wishlist'] ?? [];
+                                        foreach ($data as $product):
+                                            $isFavorite = isset($wishlist[$product['productCode']]);
+                                    ?>
                                     <div class="col-xs-12 col-sm-6 col-md-3">
                                         <div class="single-product">
                                             <div class="product-img">
@@ -66,7 +70,15 @@
                                                     <a href="?mod=product&act=detail&id=<?= $product['productCode'] ?>">
                                                         <i class="mdi mdi-eye"></i>
                                                     </a>
-                                                    <a href="#"><i class="mdi mdi-heart"></i></a>
+                                                    <?php if ($isFavorite): ?>
+                                                        <a href="?mod=wishlist&act=remove&id=<?= $product['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link is-favorite" title="Bỏ khỏi yêu thích">
+                                                            <i class="mdi mdi-heart"></i>
+                                                        </a>
+                                                    <?php else: ?>
+                                                        <a href="?mod=wishlist&act=add&id=<?= $product['productCode'] ?>&return=<?= urlencode($_SERVER['REQUEST_URI']) ?>" class="favorite-link" title="Thêm vào yêu thích">
+                                                            <i class="mdi mdi-heart-outline"></i>
+                                                        </a>
+                                                    <?php endif; ?>
                                                 </div>
                                             </div>
                                             <div class="product-dsc">

@@ -111,16 +111,24 @@ ini_set('display_errors', 1);
 					require_once('views/page/error-404.php');
 					break;
 			}
-			break;	
-		default:
-			require_once('views/page/error-404.php');
+			break;
+		case 'wishlist':
+			require_once('controllers/WishlistController.php');
+			$controller_obj = new WishlistController();
+			switch ($act) {
+				case 'add':
+					$controller_obj->add();
+					break;
+				case 'remove':
+					$controller_obj->remove();
+					break;
+				case 'list':
+					$controller_obj->list();
+					break;
+				default:
+					require_once('views/page/error-404.php');
+					break;
+			}
 			break;
 	}
-    
-
-	function checkAuth(){
-    	if(empty($_SESSION['isLogin'])){
-        	header('Location: ?mod=login&act=login');
-    	}
-    }
  ?>

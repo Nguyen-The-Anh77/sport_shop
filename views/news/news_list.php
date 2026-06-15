@@ -6,7 +6,7 @@
 <div class="breadcrumb-area pt-205 pb-210" style="background-image: url('public/img/breadcrumb/breadcrumb.jpg');">
     <div class="container">
         <div class="breadcrumb-content text-center">
-            <h2>Tin Tức Thể </h2>
+            <h2>Tin Tức Thể Thao</h2>
             <ul>
                 <li><a href="?mod=page&act=home">Trang chủ</a></li>
                 <li>Tin tức</li>
@@ -19,9 +19,10 @@
 <div class="blog-area pt-90 pb-90">
     <div class="container">
         <div class="row">
+        
             <!-- Main Content -->
             <div class="col-lg-8">
-                <div class="row">
+                <div class="row news-grid">
                     <?php if(!empty($data)): ?>
                         <?php foreach($data as $news): ?>
                             <div class="col-md-6">
@@ -94,10 +95,8 @@
                     </div>
                 <?php endif; ?>
             </div>
-            
             <!-- Sidebar -->
-            <div class="col-lg-4">
-                 
+            <div class="col-lg-4">                
                 <div class="sidebar-widget mb-30">
                     <h3 class="sidebar-title">Tin tức mới nhất</h3>
                     <div class="sidebar-content">
