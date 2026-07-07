@@ -34,6 +34,13 @@
 		    $data['quantityInStock'] = $_POST['quantityInStock'];
 			$data['productLineCode'] = $_POST['productLineCode'];
 
+		    // Kiểm tra giá không được âm
+		    if ($data['buyPrice'] < 0) {
+		    	setcookie('msg','Giá sản phẩm không được âm',time()+1);
+		    	header('Location: ?mod=product&act=add');
+		    	return;
+		    }
+
 		    // $target_dir = "public/img/";  // thư mục chứa file upload
 		    // $thumbnail="";
 
@@ -69,6 +76,13 @@
 			$data['productCode'] = $_POST['id'];
 			$data['productName'] = $_POST['productName'];
 		    $data['buyPrice'] = (int)$_POST['price'];
+
+		    // Kiểm tra giá không được âm
+		    if ($data['buyPrice'] < 0) {
+		    	setcookie('msg','Giá sản phẩm không được âm',time()+1);
+		    	header('Location: ?mod=product&act=update&id='.$data['productCode']);
+		    	return;
+		    }
 		    $data['productDescription'] = $_POST['productDescription'];
 		    $data['quantityInStock'] = $_POST['quantityInStock'];
 		    $data['productLineCode'] = $_POST['productLine'];

@@ -1,0 +1,25 @@
+### Request 1: Đăng nhập hệ thống
+POST http://localhost/sport_shop%20(1)/index.php?mod=login&act=login_action
+Content-Type: application/x-www-form-urlencoded
+
+email=nguyenduclong@gmail.com&password=1234
+
+###
+
+### Request 2: Thêm mới sản phẩm
+POST http://localhost/sport_shop%20(1)/admin/index.php?mod=product&act=store
+Content-Type: application/x-www-form-urlencoded
+
+id=SP001&productName=Sản phẩm A&price=100000&quantityInStock=10&productDescription=Mô tả sản phẩm&productLineCode=1&thumbnail=default-product.jpg
+
+###
+
+### Request 3: Thêm sản phẩm vào giỏ hàng
+POST http://localhost/sport_shop%20(1)/index.php?mod=cart&act=add&id=cl_0664
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+### Request 4: Tiến hành Đặt hàng
+POST http://localhost/sport_shop%20(1)/index.php?mod=cart&act=order
+Content-Type: application/x-www-form-urlencoded

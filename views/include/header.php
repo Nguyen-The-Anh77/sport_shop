@@ -23,9 +23,9 @@
 					<nav class="modern-nav">
 						<a class="modern-nav-link is-active" href="?mod=page&act=home">Home</a>
 						<a class="modern-nav-link" href="?mod=page&act=about">About</a>
-						<a class="modern-nav-link" href="?mod=product&line=1&type=Soccer">Soccer</a>
-						<a class="modern-nav-link" href="?mod=product&line=2&type=Basketball">Basketball</a>
-						<a class="modern-nav-link" href="?mod=product&line=3&type=Badminton">Badminton</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=1&type=Soccer">Soccer</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=2&type=Basketball">Basketball</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=3&type=Badminton">Badminton</a>
 						<a class="modern-nav-link" href="?mod=news&act=list">Tin Tức</a>
 					</nav>
 

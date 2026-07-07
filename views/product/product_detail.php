@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-    <?php require_once('views/include/head.php') ?>
+    <?php 
+    require_once('views/include/head.php');
+    // Kiểm tra xem $data có tồn tại không, nếu không thì gán mảng rỗng
+    if (!isset($data)) {
+        $data = [];
+    }
+    ?>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -38,7 +44,7 @@
 									<div class="pro-type">
 										<span>new</span>
 									</div>
-									<a class="simpleLens-image" data-lens-image=<?= $data['image'] ?> href="#"><img src=<?= $data['image'] ?> alt="" class="simpleLens-big-image"></a>
+									<a class="simpleLens-image" data-lens-image=<?= isset($data['image']) ? $data['image'] : '' ?> href="#"><img src=<?= isset($data['image']) ? $data['image'] : '' ?> alt="" class="simpleLens-big-image"></a>
 								</div>
 								<div class="simpleLens-container tab-pane active fade in" id="q-sin-2">
 									<?php if(isset($data['sales_percent']) && $data['sales_percent'] > 0): ?>
@@ -46,7 +52,7 @@
 										<span>- <?= number_format($data['sales_percent']) ?>%</span>
 									</div>
 									<?php endif; ?>
-									<a class="simpleLens-image" data-lens-image=<?= $data['image'] ?> href="#"><img src=<?= $data['image'] ?> alt="" alt="" width="240px" height="500px" class="simpleLens-big-image"></a>
+									<a class="simpleLens-image" data-lens-image=<?= isset($data['image']) ? $data['image'] : '' ?> href="#"><img src=<?= isset($data['image']) ? $data['image'] : '' ?> alt="" alt="" width="240px" height="500px" class="simpleLens-big-image"></a>
 								</div>
 							</div>
 						</div>
@@ -57,10 +63,10 @@
 			<div class="col-xs-12 col-sm-7 col-md-8">
 				<div class="quick-right">
 					<div class="list-text">
-						<h3><?= $data['productName'] ?></h3>
+						<h3><?= isset($data['productName']) ? $data['productName'] : 'Sản phẩm' ?></h3>
 						<span>Sport men’s fashion</span>
 						<div class="ratting floatright">
-							<p>( <?= $data['views'] ?> Views )</p>
+							<p>( <?= isset($data['views']) ? $data['views'] : 0 ?> Views )</p>
 							<i class="mdi mdi-star"></i>
 							<i class="mdi mdi-star"></i>
 							<i class="mdi mdi-star"></i>
@@ -68,7 +74,7 @@
 							<i class="mdi mdi-star-outline"></i>
 						</div>
 <h5><?php 
-$price = $data['buyPrice'];
+$price = isset($data['buyPrice']) ? $data['buyPrice'] : 0;
 $salesPercent = isset($data['sales_percent']) ? $data['sales_percent'] : 0;
 $discountedPrice = $price * (100 - $salesPercent) / 100;
 
@@ -77,7 +83,7 @@ if($salesPercent > 0) {
 } 
 ?>
 <?= number_format($discountedPrice) ?> VND</h5>
-						<p style="font-size: 18px"><?= $data['productDescription'] ?></p>
+						<p style="font-size: 18px"><?= isset($data['productDescription']) ? $data['productDescription'] : '' ?></p>
 						<div class="all-choose">
 							<div class="s-shoose">
 								<h5>Color</h5>
@@ -106,11 +112,11 @@ if($salesPercent > 0) {
 								</div>
 							</div>
 							<div>
-								<h5>quantity:  <?= $data['quantityInStock']?></h5>
+								<h5>quantity:  <?= isset($data['quantityInStock']) ? $data['quantityInStock'] : 0 ?></h5>
 							</div>
 						</div>
 						<div class="list-btn">
-							<a href="?mod=cart&act=add&id=<?= $data['productCode'] ?>">add to cart</a>
+							<a href="?mod=cart&act=add&id=<?= isset($data['productCode']) ? $data['productCode'] : '' ?>">add to cart</a>
 						</div>
 						<div class="share-tag clearfix">
 							<ul class="blog-share floatleft">
