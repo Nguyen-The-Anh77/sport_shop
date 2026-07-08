@@ -21,11 +21,11 @@
 					</div>
 
 					<nav class="modern-nav">
-						<a class="modern-nav-link is-active" href="?mod=page&act=home">Home</a>
-						<a class="modern-nav-link" href="?mod=page&act=about">About</a>
-						<a class="modern-nav-link" href="?mod=product&act=list&line=1&type=Soccer">Soccer</a>
-						<a class="modern-nav-link" href="?mod=product&act=list&line=2&type=Basketball">Basketball</a>
-						<a class="modern-nav-link" href="?mod=product&act=list&line=3&type=Badminton">Badminton</a>
+						<a class="modern-nav-link is-active" href="?mod=page&act=home">Trang chủ</a>
+						<a class="modern-nav-link" href="?mod=page&act=about">Về chúng tôi</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=1&type=Soccer">Bóng đá</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=2&type=Basketball">Bóng rổ</a>
+						<a class="modern-nav-link" href="?mod=product&act=list&line=3&type=Badminton">Cầu lông</a>
 						<a class="modern-nav-link" href="?mod=news&act=list">Tin Tức</a>
 					</nav>
 
@@ -66,8 +66,8 @@
 								</div>
 							</a>
 							<div class="modern-user-dropdown">
-								<a href="?mod=page&act=account">My account</a>
-								<a href="?mod=cart&act=list">My cart</a>
+							<a href="?mod=page&act=account">Tài khoản của tôi</a>
+							<a href="?mod=cart&act=list">Giỏ hàng của tôi</a>
 								<?php if(isset($_SESSION['admin']['lastName'])) { ?>
 								<a href="admin/?mod=page&act=dashboard">Admin</a>
 								<?php } ?>
