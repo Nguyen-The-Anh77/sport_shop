@@ -11,10 +11,10 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="pages-title-text text-center">
-							<h2>My Account</h2>
+							<h2>Tài khoản của tôi</h2>
 							<ul class="text-left">
-								<li><a href="?mod=page&act=home">Home </a></li>
-								<li><span> // </span>My Account</li>
+								<li><a href="?mod=page&act=home">Trang chủ </a></li>
+								<li><span> // </span>Tài khoản của tôi</li>
 							</ul>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 					<div class="col-xs-12 col-sm-8">
 						<div class="padding60">
 							<div class="log-title" align="center">
-								<h3><strong>Account's Information</strong></h3>
+								<h3><strong>Thông tin tài khoản</strong></h3>
 							</div>
 							<div class="prament-area main-input">
 								<ul class="panel-group" id="accordion">
@@ -41,25 +41,25 @@
 													<form action="?mod=login&act=edit" method="post" style="color: black">
 														<div class="row">
 															<div class="col-md-6" >
-																<label>First Name:</label>
+																<label>Tên:</label>
 																<input style="color: black" type="text" name="firstName" value="<?php if(isset($_SESSION['customer']['contactFirstName'])) echo $_SESSION['customer']['contactFirstName']; 
 											else if(isset($_SESSION['admin']['name'])) echo $_SESSION['admin']['firstName'];?>" />
 															</div>
 															<div class="col-md-6">
-																<label>Last Name:</label>
+															<label>Họ:</label>
 																<input style="color: black" type="text" name="lastName" value="<?php if(isset($_SESSION['customer']['contactLastName'])) echo $_SESSION['customer']['contactLastName']; 
 											else if(isset($_SESSION['admin']['name'])) echo $_SESSION['admin']['lastName'];?>" />
 															</div>
 														</div>
 															<label>Email:</label>
 															<input style="color: black" type="email" name="email" value="<?php if(isset($_SESSION['customer']['email'])) echo $_SESSION['customer']['email']; ?>"/>
-															<label>Phone:</label>
+													<label>Điện thoại:</label>
 															<input style="color: black" type="text" name="phone" value="<?php if(isset($_SESSION['customer']['phone'])) echo $_SESSION['customer']['phone']; ?>"/>
-															<label>Address:</label>
+													<label>Địa chỉ:</label>
 															<input style="color: black" type="text" name="address" value="<?php if(isset($_SESSION['customer']['addressLine1'])) echo $_SESSION['customer']['addressLine1'] ?> "/>
-															<label>City:</label>
+													<label>Thành phố:</label>
 															<input style="color: black" type="text" name="city" value="<?php if(isset($_SESSION['customer']['city'])) echo $_SESSION['customer']['city'] ?> "/>
-															<label>Country:</label>
+													<label>Quốc gia:</label>
 															<input style="color: black" type="text" name="country" value="<?php if(isset($_SESSION['customer']['country'])) echo $_SESSION['customer']['country'] ?> "/>
 														<button type="submit" class="btn btn-primary">Lưu</button>
 													</form>
