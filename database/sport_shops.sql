@@ -8351,3 +8351,22 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+CREATE TABLE `sliders` (
+  `id` int(11) NOT NULL,
+  `image` varchar(255) DEFAULT NULL COMMENT 'Đường dẫn hình ảnh slider',
+  `title` varchar(255) DEFAULT NULL COMMENT 'Tiêu đề slider',
+  `description` text DEFAULT NULL COMMENT 'Mô tả chi tiết slider',
+  `link` varchar(255) DEFAULT NULL COMMENT 'Link khi click vào slider',
+  `status` int(1) DEFAULT 1 COMMENT 'Trạng thái: 1=Hiển thị, 0=Ẩn',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo',
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT 'Ngày cập nhật'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Bảng quản lý slider/banner quảng cáo';
+
+--
+-- Dumping data for table `sliders`
+--
+
+INSERT INTO `sliders` (`id`, `image`, `title`, `description`, `link`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'public/img/slider/slider_1783279072.png', 'kk', 'msak', '', 1, '2026-07-05 19:17:52', '2026-07-05 19:17:52');
+
+--
