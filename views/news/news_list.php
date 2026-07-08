@@ -95,8 +95,8 @@
                     </div>
                 <?php endif; ?>
             </div>
-            <!-- Sidebar -->
-            <div class="col-lg-4">                
+            <!--sidebar -->
+                <div class="col-lg-4">                
                 <div class="sidebar-widget mb-30">
                     <h3 class="sidebar-title">Tin tức mới nhất</h3>
                     <div class="sidebar-content">

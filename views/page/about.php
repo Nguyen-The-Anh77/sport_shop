@@ -41,7 +41,7 @@
                                 <div class="about-author">
                                     <h3>Giới thiệu đôi chút về sản phẩm này<br /> (cửa hàng thể thao)</h3>
                                 </div>
-                                <p style="font-size: 14px">Mình là người khá nhút nhát, thích xem và chơi thể thao đặc biệt là bóng đá. Bởi vì sở thích đó mà mình đã lấy đề tài cho Team là Web bán quần áo thể thao thể thao. Vì trước đây mình đã làm trước một chút nên bài lần này mình đã tận dụng và phát triển thêm về cơ sở dữ liệu, chức năng và tối ưu câu truy vấn cơ sở dữ liệu. </p>
+                                <p style="font-size: 14px">Mình là người khá năng động, thích xem và chơi thể thao đặc biệt là bóng đá. Bởi vì sở thích đó mà mình đã lấy đề tài cho Team là Web bán quần áo thể thao thể thao. Vì trước đây mình đã làm trước một chút nên bài lần này mình đã tận dụng và phát triển thêm về cơ sở dữ liệu, chức năng và tối ưu câu truy vấn cơ sở dữ liệu. </p>
                                 
                                 <p style="font-size: 14px">Website này là sản phẩm được nhóm mình xây dựng dựa trên những kiến thức PHP đã được học trên giảng đường. Trong quá trình thực hiện, nhóm đã cố gắng áp dụng các kiến thức về lập trình web, cơ sở dữ liệu và xử lý dữ liệu để tạo ra một hệ thống hoạt động ổn định. Dù vẫn còn nhiều thiếu sót và chưa thể triển khai đầy đủ các tính năng mong muốn, đây vẫn là thành quả của quá trình học tập, nghiên cứu và làm việc nghiêm túc của cả nhóm trong học kỳ 1 năm 3.
 

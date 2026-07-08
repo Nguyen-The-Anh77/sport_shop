@@ -60,8 +60,7 @@ require_once('views/include/head.php');
                                             <li><a href="#"><?php echo trim($tag); ?></a></li>
                                         <?php endforeach; ?>
                                         
-                                    </ul>
-                                    
+                                    </ul> 
                                 </div>
                             <?php endif; ?>
                             

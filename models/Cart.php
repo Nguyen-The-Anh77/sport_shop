@@ -48,14 +48,26 @@
 
                 // Xử lý từng sản phẩm trong giỏ hàng
                 foreach ($datas as $data) {
-                    $productCode = $this->connection->real_escape_string($data['productCode']);
-                    $quantity = (int)$data['SoLuong'];
+                    if (!isset($data['productCode']) || trim($data['productCode']) === '') {
+                        throw new Exception("Thiếu mã sản phẩm trong giỏ hàng");
+                    }
+
+                    $productCode = $this->connection->real_escape_string(trim($data['productCode']));
+                    $quantity = (int)($data['SoLuong'] ?? 1);
                     $priceEach = isset($data['buyPrice']) ? $data['buyPrice'] : 0;
+
+                    if ($quantity <= 0) {
+                        throw new Exception("Số lượng đặt hàng không hợp lệ cho sản phẩm $productCode");
+                    }
                     
                     // Lấy thông tin sản phẩm và tồn kho
                     $checkQuery = "SELECT quantityInStock FROM products WHERE productCode = '$productCode'";
                     $checkResult = $this->connection->query($checkQuery);
                     
+                    if ($checkResult === false) {
+                        throw new Exception("Lỗi khi kiểm tra tồn kho: " . $this->connection->error);
+                    }
+
                     if ($checkResult->num_rows == 0) {
                         throw new Exception("Không tìm thấy sản phẩm $productCode");
                     }
