@@ -316,7 +316,7 @@ header.header-one,
 	border-bottom: 1px solid rgba(255, 255, 255, 0.11);
 	box-shadow: 0 18px 50px rgba(15, 23, 42, 0.28);
 	padding: 14px 0;
-	overflow: hidden;
+	overflow: visible; /* allow dropdowns to overflow header */
 }
 
 .modern-header::before {
@@ -337,6 +337,49 @@ header.header-one,
 	align-items: center;
 	z-index: 1;
 }
+
+/* User dropdown fix: ensure it's positioned above other content and visible */
+.modern-user-menu {
+	position: relative;
+	z-index: 9999;
+}
+
+.modern-user-dropdown {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	display: none;
+	background: #ffffff;
+	color: #333;
+	min-width: 180px;
+	border-radius: 6px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+	padding: 8px 0;
+	overflow: visible;
+}
+
+.modern-user-menu:hover .modern-user-dropdown,
+.modern-user-menu.active .modern-user-dropdown {
+	display: block;
+	opacity: 1 !important;
+	visibility: visible !important;
+	transform: translateY(0) !important;
+	z-index: 99999 !important;
+}
+
+/* Fallback override: force dropdown to fixed positioning if stacking contexts block it */
+.modern-user-dropdown.force-fixed {
+	position: fixed !important;
+	top: 78px !important; /* adjust if header height differs */
+	right: 24px !important;
+	z-index: 2147483647 !important;
+	transform: none !important;
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+/* Ensure header stacking doesn't block dropdown */
+.modern-header { z-index: 1000; }
 
 .modern-brand a {
 	display: flex;

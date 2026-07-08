@@ -2,6 +2,14 @@
     error_reporting(E_ALL);
 ini_set('display_errors', 1); 
     session_start();
+
+	function checkAuth(){
+		if(empty($_SESSION['isLogin']) || empty($_SESSION['customer'])){
+			header('Location: ?mod=login&act=login');
+			exit;
+		}
+	}
+
 	$mod = (isset($_GET['mod'])?$_GET['mod']:'page');
 	$act = (isset($_GET['act'])?$_GET['act']:(isset($_POST['act'])?$_POST['act']:'list'));
 
