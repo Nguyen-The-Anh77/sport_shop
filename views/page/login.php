@@ -2,9 +2,7 @@
 <html class="no-js" lang="vi">
     <?php require_once('views/include/head.php') ?>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">Bạn đang sử dụng trình duyệt <strong>lỗi thời</strong>. Vui lòng <a href="http://browsehappy.com/">nâng cấp trình duyệt</a> để cải thiện trải nghiệm.</p>
-        <![endif]-->
+         
 
         <!-- header section start -->
 		<?php require_once('views/include/header.php') ?>
