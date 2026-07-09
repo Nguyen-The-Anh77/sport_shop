@@ -81,7 +81,7 @@
 							</div>
 							<div class="modern-action-label">
 								<strong>Đăng nhập</strong>
-								<span>Truy cập tài khoản</span>
+								<span>Truy cập </span>
 							</div>
 						</a>
 						<?php } ?>
