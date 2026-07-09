@@ -71,7 +71,7 @@
 								<?php if(isset($_SESSION['admin']['lastName'])) { ?>
 								<a href="admin/?mod=page&act=dashboard">Admin</a>
 								<?php } ?>
-								<a href="?mod=login&act=logout">Logout</a>
+								<a href="?mod=login&act=logout">Đăng xuất</a>
 							</div>
 						</div>
 						<?php } else { ?>
